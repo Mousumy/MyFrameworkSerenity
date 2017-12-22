@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="application.TestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Saikats-MBP.local.tld" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31mconsult_dictionary/DefinitionApple.feature:7 ?[0m# Scenario: Looking up the definition of 'apple'
+
+2 Scenarios (?[31m1 failed?[0m, ?[32m1 passed?[0m)
+6 Steps (?[31m1 failed?[0m, ?[32m5 passed?[0m)
+0m13.303s
+
+java.lang.AssertionError: 
+Expected: a collection containing a string containing "A common, round frt produced by the tree Malus domestica, cultivated in temperate climates."
+     but: was "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates. [from 9th c.] quotations ▼", was "", was "", was "", was "Any of various tree-borne fruits or vegetables especially considered as resembling an apple; also (with qualifying words) used to form the names of other specific fruits such as custard apple, rose apple, thorn apple etc. [from 9th c.] quotations ▼", was "", was "", was "", was "The fruit of the Tree of Knowledge, eaten by Adam and Eve according to post-Biblical Christian tradition; the forbidden fruit. [from 11th c.] quotations ▼", was "", was "", was "A tree of the genus Malus, especially one cultivated for its edible fruit; the apple tree. [from 15th c.] quotations ▼", was "", was "", was "", was "", was "The wood of the apple tree. [from 19th c.]", was "(in the plural, Cockney rhyming slang) Short for apples and pears, slang for stairs. [from 20th c.]", was "(baseball, slang, obsolete) The ball in baseball. [from 20th c.]", was "(informal) When smiling, the round, fleshy part of the cheeks between the eyes and the corners of the mouth.", was "(pejorative, ethnic slur) A Native American or red-skinned person who acts and/or thinks like a white (Caucasian) person. quotations ▼", was "", was ""
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at application.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:28)
+	at application.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bde4a7fb.CGLIB$should_see_definition$3(<generated>)
+	at application.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bde4a7fb$$FastClassByCGLIB$$2a0ee4c4.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at application.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bde4a7fb.should_see_definition(<generated>)
+	at application.steps.DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(DefinitionSteps.java:26)
+	at ✽.Then they should see the definition 'A common, round frt produced by the tree Malus domestica, cultivated in temperate climates.'(consult_dictionary/DefinitionApple.feature:10)
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] ERROR net.serenitybdd.core.Serenity - ?[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Looking up the definition of 'apple'
+--------------------------------------------------------------------------?[0m
+[Test worker] ERROR net.serenitybdd.core.Serenity - ?[91mTEST FAILED AT STEP Should see definition: A common, round frt produced by the tree Malus domestica, cultivated in temperate climates.?[0m
+[Test worker] ERROR net.serenitybdd.core.Serenity - Expected: a collection containing a string containing "A common, round frt produced by the tree Malus domestica, cultivated in temperate climates." but: was "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates. [from 9th c.] quotations ▼", was "", was "", was "", was "Any of various tree-borne fruits or vegetables especially considered as resembling an apple; also (with qualifying words) used to form the names of other specific fruits such as custard apple, rose apple, thorn apple etc. [from 9th c.] quotations ▼", was "", was "", was "", was "The fruit of the Tree of Knowledge, eaten by Adam and Eve according to post-Biblical Christian tradition; the forbidden fruit. [from 11th c.] quotations ▼", was "", was "", was "A tree of the genus Malus, especially one cultivated for its edible fruit; the apple tree. [from 15th c.] quotations ▼", was "", was "", was "", was "", was "The wood of the apple tree. [from 19th c.]", was "(in the plural, Cockney rhyming slang) Short for apples and pears, slang for stairs. [from 20th c.]", was "(baseball, slang, obsolete) The ball in baseball. [from 20th c.]", was "(informal) When smiling, the round, fleshy part of the cheeks between the eyes and the corners of the mouth.", was "(pejorative, ethnic slur) A Native American or red-skinned person who acts and/or thinks like a white (Caucasian) person. quotations ▼", was "", was ""
+]]></system-err>
+</testsuite>

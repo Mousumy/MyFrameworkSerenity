@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class application.TestSuite</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class application.TestSuite</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/application.html">application</a> &gt; TestSuite</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">0</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">-</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+?[31mFailed scenarios:?[0m
+?[31mconsult_dictionary/DefinitionApple.feature:7 ?[0m# Scenario: Looking up the definition of 'apple'
+
+2 Scenarios (?[31m1 failed?[0m, ?[32m1 passed?[0m)
+6 Steps (?[31m1 failed?[0m, ?[32m5 passed?[0m)
+0m13.303s
+
+java.lang.AssertionError: 
+Expected: a collection containing a string containing &quot;A common, round frt produced by the tree Malus domestica, cultivated in temperate climates.&quot;
+     but: was &quot;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates. [from 9th c.] quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;Any of various tree-borne fruits or vegetables especially considered as resembling an apple; also (with qualifying words) used to form the names of other specific fruits such as custard apple, rose apple, thorn apple etc. [from 9th c.] quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;The fruit of the Tree of Knowledge, eaten by Adam and Eve according to post-Biblical Christian tradition; the forbidden fruit. [from 11th c.] quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;A tree of the genus Malus, especially one cultivated for its edible fruit; the apple tree. [from 15th c.] quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;The wood of the apple tree. [from 19th c.]&quot;, was &quot;(in the plural, Cockney rhyming slang) Short for apples and pears, slang for stairs. [from 20th c.]&quot;, was &quot;(baseball, slang, obsolete) The ball in baseball. [from 20th c.]&quot;, was &quot;(informal) When smiling, the round, fleshy part of the cheeks between the eyes and the corners of the mouth.&quot;, was &quot;(pejorative, ethnic slur) A Native American or red-skinned person who acts and/or thinks like a white (Caucasian) person. quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at application.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:28)
+	at application.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bde4a7fb.CGLIB$should_see_definition$3(&lt;generated&gt;)
+	at application.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bde4a7fb$$FastClassByCGLIB$$2a0ee4c4.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at application.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bde4a7fb.should_see_definition(&lt;generated&gt;)
+	at application.steps.DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(DefinitionSteps.java:26)
+	at ✽.Then they should see the definition 'A common, round frt produced by the tree Malus domestica, cultivated in temperate climates.'(consult_dictionary/DefinitionApple.feature:10)
+
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] ERROR net.serenitybdd.core.Serenity - ?[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Looking up the definition of 'apple'
+--------------------------------------------------------------------------?[0m
+[Test worker] ERROR net.serenitybdd.core.Serenity - ?[91mTEST FAILED AT STEP Should see definition: A common, round frt produced by the tree Malus domestica, cultivated in temperate climates.?[0m
+[Test worker] ERROR net.serenitybdd.core.Serenity - Expected: a collection containing a string containing &quot;A common, round frt produced by the tree Malus domestica, cultivated in temperate climates.&quot; but: was &quot;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates. [from 9th c.] quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;Any of various tree-borne fruits or vegetables especially considered as resembling an apple; also (with qualifying words) used to form the names of other specific fruits such as custard apple, rose apple, thorn apple etc. [from 9th c.] quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;The fruit of the Tree of Knowledge, eaten by Adam and Eve according to post-Biblical Christian tradition; the forbidden fruit. [from 11th c.] quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;A tree of the genus Malus, especially one cultivated for its edible fruit; the apple tree. [from 15th c.] quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;The wood of the apple tree. [from 19th c.]&quot;, was &quot;(in the plural, Cockney rhyming slang) Short for apples and pears, slang for stairs. [from 20th c.]&quot;, was &quot;(baseball, slang, obsolete) The ball in baseball. [from 20th c.]&quot;, was &quot;(informal) When smiling, the round, fleshy part of the cheeks between the eyes and the corners of the mouth.&quot;, was &quot;(pejorative, ethnic slur) A Native American or red-skinned person who acts and/or thinks like a white (Caucasian) person. quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.3.1</a> at Dec 4, 2017 5:01:17 PM</p>
+</div>
+</div>
+</body>
+</html>
