@@ -1,0 +1,29 @@
+@smoke
+Feature: Lookup a definition
+  In order to talk better
+  As an English student
+  I want to look up word definitions
+
+  @smoke
+  Scenario: Looking up the definition of 'apple'                                                                                        [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:7[0m
+    [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                        [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
+    [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mapple[0m[32m'[0m                                                                           [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
+    [32mThen [0m[32mthey should see the definition '[0m[32m[1mA common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
+
+  @smoke @Manual
+  Scenario: Looking up the definition of 'pear'                                                                                          [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:13[0m
+    [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                         [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
+    [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mpear[0m[32m'[0m                                                                             [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
+    [32mThen [0m[32mthey should see the definition '[0m[32m[1mAn edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
+
+  @smoke @skip
+  Scenario: Looking up the definition of 'pear'                                                                                          [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:19[0m
+    [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                         [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
+    [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mpear[0m[32m'[0m                                                                             [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
+    [32mThen [0m[32mthey should see the definition '[0m[32m[1mAn edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
+
+  @smoke @Pending
+  Scenario: Looking up the definition of 'pear'                                                                                          [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:25[0m
+    [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                         [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
+    [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mpear[0m[32m'[0m                                                                             [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
+    [32mThen [0m[32mthey should see the definition '[0m[32m[1mAn edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="15.212684">
+<testcase classname="Lookup a definition" name="Looking up the definition of 'apple'" time="9.27722">
+<system-out><![CDATA[Given the user is on the Wikionary home page................................passed
+When the user looks up the definition of the word 'apple'...................passed
+Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'.passed
+]]></system-out>
+</testcase>
+<testcase classname="Lookup a definition" name="Looking up the definition of 'pear'" time="0.024636">
+<system-out><![CDATA[Given the user is on the Wikionary home page................................passed
+When the user looks up the definition of the word 'pear'....................passed
+Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'.passed
+]]></system-out>
+</testcase>
+<testcase classname="Lookup a definition" name="Looking up the definition of 'pear' 2" time="3.011753">
+<system-out><![CDATA[Given the user is on the Wikionary home page................................passed
+When the user looks up the definition of the word 'pear'....................passed
+Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'.passed
+]]></system-out>
+</testcase>
+<testcase classname="Lookup a definition" name="Looking up the definition of 'pear' 3" time="2.899075">
+<system-out><![CDATA[Given the user is on the Wikionary home page................................passed
+When the user looks up the definition of the word 'pear'....................passed
+Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'.passed
+]]></system-out>
+</testcase>
+</testsuite>

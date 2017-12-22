@@ -1,0 +1,4 @@
+application\steps\serenity\EndUserSteps.class
+application\TestSuite.class
+application\steps\DefinitionSteps.class
+application\pages\AppleLoginPage.class
