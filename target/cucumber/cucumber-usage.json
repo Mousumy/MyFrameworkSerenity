@@ -5,12 +5,12 @@
       {
         "name": "the user looks up the definition of the word \u0027apple\u0027",
         "aggregatedDurations": {
-          "average": 1.859709265,
-          "median": 1.859709265
+          "average": 0.786321522,
+          "median": 0.786321522
         },
         "durations": [
           {
-            "duration": 1.859709265,
+            "duration": 0.786321522,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:9"
           }
         ]
@@ -18,20 +18,20 @@
       {
         "name": "the user looks up the definition of the word \u0027pear\u0027",
         "aggregatedDurations": {
-          "average": 0.00946439,
-          "median": 0.008044154
+          "average": 0.006051288,
+          "median": 0.004991565
         },
         "durations": [
           {
-            "duration": 0.01339666,
+            "duration": 0.008533385,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:15"
           },
           {
-            "duration": 0.008044154,
+            "duration": 0.004628915,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:21"
           },
           {
-            "duration": 0.006952356,
+            "duration": 0.004991565,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:27"
           }
         ]
@@ -44,24 +44,24 @@
       {
         "name": "the user is on the Wikionary home page",
         "aggregatedDurations": {
-          "average": 4.14494916,
-          "median": 3.026892108
+          "average": 3.104147164,
+          "median": 2.803432556
         },
         "durations": [
           {
-            "duration": 10.518695281,
+            "duration": 6.795795317,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:8"
           },
           {
-            "duration": 0.007317144,
+            "duration": 0.013928227,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:14"
           },
           {
-            "duration": 2.889572706,
+            "duration": 2.723627609,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:20"
           },
           {
-            "duration": 3.16421151,
+            "duration": 2.883237504,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:26"
           }
         ]
@@ -74,12 +74,12 @@
       {
         "name": "they should see the definition \u0027A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.\u0027",
         "aggregatedDurations": {
-          "average": 0.55354473,
-          "median": 0.55354473
+          "average": 0.720253855,
+          "median": 0.720253855
         },
         "durations": [
           {
-            "duration": 0.55354473,
+            "duration": 0.720253855,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:10"
           }
         ]
@@ -87,20 +87,20 @@
       {
         "name": "they should see the definition \u0027An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.\u0027",
         "aggregatedDurations": {
-          "average": 0.003116592,
-          "median": 0.003104333
+          "average": 0.002600414,
+          "median": 0.001947103
         },
         "durations": [
           {
-            "duration": 0.003901906,
+            "duration": 0.003994706,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:16"
           },
           {
-            "duration": 0.003104333,
+            "duration": 0.001947103,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:22"
           },
           {
-            "duration": 0.002343539,
+            "duration": 0.001859435,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:28"
           }
         ]
