@@ -1,6 +1,11 @@
+application\pages\LandingPage.class
 application\steps\serenity\EndUserSteps.class
 application\steps\DefinitionSteps.class
-application\pages\AppleLoginPage.class
-application\utils\helpmethod.class
-application\TestSuite.class
 application\utils\Utility.class
+application\pages\ProfilePage.class
+application\pages\AppleLoginPage.class
+application\steps\ProfilePageStepDef.class
+application\TestSuite.class
+application\utils\MyHelperMethods.class
+application\pages\LoginPage.class
+application\steps\serenity\steps.class

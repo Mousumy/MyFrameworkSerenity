@@ -50,8 +50,8 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
-                ['Pending', 1],
+                ['Passing', 2],
+                ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -83,8 +83,8 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
-                {label: '1 requirements pending'},
+                {label: '2 requirements tested successfully'},
+                {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -184,7 +184,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-12-2017 18:46</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-12-2017 22:56</span>
     <br style="clear:left"/>
 </div>
 
@@ -216,26 +216,26 @@
                                     <tr>
                                         <td class="summary-leading-column"><a href="#requirements-tabs">Epics</a></td>
                                         <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
                                         <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
                                     <tr>
                                         <td class="summary-leading-column"><a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html">Features</a></td>
-                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>2</td>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td>1</td>
                                         <td>0</td>
                                     </tr>
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
-                                    <td>2</td>
-                                    <td>1</td>
+                                    <td>3</td>
+                                    <td>3</td>
                                     <td>0</td>
-                                    <td>1</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -263,31 +263,31 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>1</td>
-            <td>1 (100%)</td>
+            <td>3</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Manual</td>
-            <td>1</td>
+            <td>0</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
-            <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>2</td>
-            <td>1 (50%)</td>
+            <td>3</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
-            <td>1 (50%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">15 seconds</td>
+                <td colspan="5">39 seconds</td>
         </tr>
         </body>
     </table>
@@ -326,14 +326,14 @@
 
 
 
-                <tr class="test-PENDING requirementRow">
+                <tr class="test-SUCCESS requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                        <span style="display:none">2</span>
+                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        <span style="display:none">1</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="PENDING-text requirementRowCell">
+                    <td class="SUCCESS-text requirementRowCell">
                         <a href="javaScript:void(0)" class="read-more-link">
                             <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
@@ -342,20 +342,20 @@
                         <div class="requirementNarrative read-more-text">Consult dictionary</div>
                     </td>
 
-                        <td class="bluetext requirementRowCell">1</td>
+                        <td class="bluetext requirementRowCell">2</td>
 
-                    <td class="greentext highlighted-value requirementRowCell">1</td>
+                    <td class="greentext highlighted-value requirementRowCell">3</td>
 <!--
-                    <td class="greentext requirementRowCell">1</td>
+                    <td class="greentext requirementRowCell">3</td>
                     <td class="bluetext requirementRowCell">0</td>
                     <td class="redtext requirementRowCell">0</td>
                     <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
 -->
-                        <td class="greentext highlighted-value requirementRowCell">1</td>
+                        <td class="greentext highlighted-value requirementRowCell">0</td>
 <!--
                         <td class="greentext requirementRowCell">0</td>
-                        <td class="bluetext requirementRowCell">1</td>
+                        <td class="bluetext requirementRowCell">0</td>
                         <td class="redtext requirementRowCell">0</td>
                         <td class="lightorangetext requirementRowCell">0</td>
                         -->
@@ -366,71 +366,71 @@
 <table>
     <tr>
         <td width="40px">
-            <div class="small">50%</div>
+            <div class="small">100%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
-                 title="  - Total tests: 2
-  - Passing tests: 1 (50%)
+                 title="  - Total tests: 3
+  - Passing tests: 3 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (50%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)"
                  style="width: 125px;">
                 <div class="pendingbar"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
+                     title="  - Total tests: 3
+  - Passing tests: 3 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (50%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)"
                      style="width: 125px;">
                     <div class="ignoredbar"
-                         style="width: 62px;"
-                         title="  - Total tests: 2
-  - Passing tests: 1 (50%)
+                         style="width: 125px;"
+                         title="  - Total tests: 3
+  - Passing tests: 3 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (50%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                         <div class="compromisedbar"
-                             style="width: 62px;"
-                             title="  - Total tests: 2
-  - Passing tests: 1 (50%)
+                             style="width: 125px;"
+                             title="  - Total tests: 3
+  - Passing tests: 3 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (50%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                             <div class="errorbar"
-                                 style="width: 62px;"
-                                 title="  - Total tests: 2
-  - Passing tests: 1 (50%)
+                                 style="width: 125px;"
+                                 title="  - Total tests: 3
+  - Passing tests: 3 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (50%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                 <div class="failingbar"
-                                     style="width: 62px;"
-                                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
+                                     style="width: 125px;"
+                                     title="  - Total tests: 3
+  - Passing tests: 3 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (50%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                     <div class="passingbar"
-                                         style="width: 62px;"
-                                         title="  - Total tests: 2
-  - Passing tests: 1 (50%)
+                                         style="width: 125px;"
+                                         title="  - Total tests: 3
+  - Passing tests: 3 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (50%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                     </div>
                                 </div>
@@ -450,77 +450,77 @@
 <table>
     <tr>
         <td width="40px">
-            <div class="small">0%</div>
+            <div class="small">100%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
                  title="Consult dictionary:
-  - Passing Features: 0 (0%
+  - Passing Features: 2 (100%
   - Features Failing: 0 (0%
   - Features Failing with errors: 0
   - Compromised Features: 0
-  - Pending Features: 1
+  - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%"
                  style="width: 125px;">
                 <div class="pendingbar"
                      title="Consult dictionary:
-  - Passing Features: 0 (0%
+  - Passing Features: 2 (100%
   - Features Failing: 0 (0%
   - Features Failing with errors: 0
   - Compromised Features: 0
-  - Pending Features: 1
+  - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%"
                      style="width: 125px;">
                     <div class="ignoredbar"
-                         style="width: 0px;"
+                         style="width: 125px;"
                          title="Consult dictionary:
-  - Passing Features: 0 (0%
+  - Passing Features: 2 (100%
   - Features Failing: 0 (0%
   - Features Failing with errors: 0
   - Compromised Features: 0
-  - Pending Features: 1
+  - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%">
                         <div class="compromisedbar"
-                             style="width: 0px;"
+                             style="width: 125px;"
                              title="Consult dictionary:
-  - Passing Features: 0 (0%
+  - Passing Features: 2 (100%
   - Features Failing: 0 (0%
   - Features Failing with errors: 0
   - Compromised Features: 0
-  - Pending Features: 1
+  - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%">
                             <div class="errorbar"
-                                 style="width: 0px;"
+                                 style="width: 125px;"
                                  title="Consult dictionary:
-  - Passing Features: 0 (0%
+  - Passing Features: 2 (100%
   - Features Failing: 0 (0%
   - Features Failing with errors: 0
   - Compromised Features: 0
-  - Pending Features: 1
+  - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%">
                                 <div class="failingbar"
-                                     style="width: 0px;"
+                                     style="width: 125px;"
                                      title="Consult dictionary:
-  - Passing Features: 0 (0%
+  - Passing Features: 2 (100%
   - Features Failing: 0 (0%
   - Features Failing with errors: 0
   - Compromised Features: 0
-  - Pending Features: 1
+  - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%">
                                     <div class="passingbar"
-                                         style="width: 0px;"
+                                         style="width: 125px;"
                                          title="Consult dictionary:
-  - Passing Features: 0 (0%
+  - Passing Features: 2 (100%
   - Features Failing: 0 (0%
   - Features Failing with errors: 0
   - Compromised Features: 0
-  - Pending Features: 1
+  - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%">
                                     </div>
@@ -579,16 +579,16 @@
                                 <td class="SUCCESS-text">8</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2017-12-23 18:46:12">18:46:12</td>
+                                <td class="SUCCESS-text" data-sort="2017-12-23 22:56:30">22:56:30</td>
 
-                                <td class="SUCCESS-text">8.74</td>
+                                <td class="SUCCESS-text">7.12</td>
                             </tr>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                                    <i class="fa fa-user manual" title="Manual test"></i>
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="830af9bb6bab08a3bcf6c0ff03222ca32381fd3631cc518baf92d1f9860fa1ef.html" class="ellipsis"
@@ -599,12 +599,35 @@
                                     </div>
                                 </td>
 
-                                <td class="PENDING-text">24</td>
+                                <td class="SUCCESS-text">24</td>
 
 
-                                <td class="PENDING-text" data-sort="2017-12-23 18:46:20">18:46:20</td>
+                                <td class="SUCCESS-text" data-sort="2017-12-23 22:56:37">22:56:37</td>
 
-                                <td class="PENDING-text">5.78</td>
+                                <td class="SUCCESS-text">18.15</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="1baf56e3b75b36bbae6247fe5329b345cd0d7f59ccdf6f2b63b1e3d175481835.html" class="ellipsis"
+                                           title="Search for Friends ">
+                                            Search for Friends
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">7</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2017-12-23 22:56:55">22:56:55</td>
+
+                                <td class="SUCCESS-text">13.34</td>
                             </tr>
                         </tbody>
                     </table>

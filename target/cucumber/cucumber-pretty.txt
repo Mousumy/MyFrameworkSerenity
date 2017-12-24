@@ -10,20 +10,33 @@ Feature: Lookup a definition
     [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mapple[0m[32m'[0m                                                                           [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
     [32mThen [0m[32mthey should see the definition '[0m[32m[1mA common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
 
-  @smoke @Manual
+  @smoke @smoke
   Scenario: Looking up the definition of 'pear'                                                                                          [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:13[0m
     [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                         [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
     [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mpear[0m[32m'[0m                                                                             [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
     [32mThen [0m[32mthey should see the definition '[0m[32m[1mAn edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
 
-  @smoke @skip
+  @smoke @smoke
   Scenario: Looking up the definition of 'pear'                                                                                          [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:19[0m
     [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                         [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
     [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mpear[0m[32m'[0m                                                                             [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
     [32mThen [0m[32mthey should see the definition '[0m[32m[1mAn edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
 
-  @smoke @Pending
+  @smoke @smoke
   Scenario: Looking up the definition of 'pear'                                                                                          [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:25[0m
     [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                         [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
     [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mpear[0m[32m'[0m                                                                             [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
     [32mThen [0m[32mthey should see the definition '[0m[32m[1mAn edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
+
+Feature: Lookup a friend from facebook friend list
+  In order to find a friend 
+  As an facebook user
+  I want to search friend from list
+
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
+    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
+
+  @regression
+  Scenario: Search for Friends                [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:11[0m
+    [32mWhen [0m[32mUser will search for "[0m[32m[1mSunil C Patel[0m[32m"[0m [90m# ProfilePageStepDef.user_will_search_for(String)[0m

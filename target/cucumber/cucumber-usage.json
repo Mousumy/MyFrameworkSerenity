@@ -1,16 +1,34 @@
 [
   {
+    "source": "^User can log in to facebook using userid as \"([^\"]*)\" and password as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User can log in to facebook using userid as \"asmenterprise.llc@gmail.com\" and password as \"ctg310306\"",
+        "aggregatedDurations": {
+          "average": 10.56544137,
+          "median": 10.56544137
+        },
+        "durations": [
+          {
+            "duration": 10.56544137,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "source": "the user looks up the definition of the word \u0027(.*)\u0027",
     "steps": [
       {
         "name": "the user looks up the definition of the word \u0027apple\u0027",
         "aggregatedDurations": {
-          "average": 0.786321522,
-          "median": 0.786321522
+          "average": 0.828583464,
+          "median": 0.828583464
         },
         "durations": [
           {
-            "duration": 0.786321522,
+            "duration": 0.828583464,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:9"
           }
         ]
@@ -18,21 +36,39 @@
       {
         "name": "the user looks up the definition of the word \u0027pear\u0027",
         "aggregatedDurations": {
-          "average": 0.006051288,
-          "median": 0.004991565
+          "average": 1.022249925,
+          "median": 0.954686328
         },
         "durations": [
           {
-            "duration": 0.008533385,
+            "duration": 0.911183765,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:15"
           },
           {
-            "duration": 0.004628915,
+            "duration": 1.200879682,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:21"
           },
           {
-            "duration": 0.004991565,
+            "duration": 0.954686328,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User will search for \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User will search for \"Sunil C Patel\"",
+        "aggregatedDurations": {
+          "average": 2.352885481,
+          "median": 2.352885481
+        },
+        "durations": [
+          {
+            "duration": 2.352885481,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:12"
           }
         ]
       }
@@ -44,24 +80,24 @@
       {
         "name": "the user is on the Wikionary home page",
         "aggregatedDurations": {
-          "average": 3.104147164,
-          "median": 2.803432556
+          "average": 4.855470749,
+          "median": 4.74505815
         },
         "durations": [
           {
-            "duration": 6.795795317,
+            "duration": 5.399445334,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:8"
           },
           {
-            "duration": 0.013928227,
+            "duration": 4.721608659,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:14"
           },
           {
-            "duration": 2.723627609,
+            "duration": 4.532321364,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:20"
           },
           {
-            "duration": 2.883237504,
+            "duration": 4.768507641,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:26"
           }
         ]
@@ -74,12 +110,12 @@
       {
         "name": "they should see the definition \u0027A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.\u0027",
         "aggregatedDurations": {
-          "average": 0.720253855,
-          "median": 0.720253855
+          "average": 0.62462853,
+          "median": 0.62462853
         },
         "durations": [
           {
-            "duration": 0.720253855,
+            "duration": 0.62462853,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:10"
           }
         ]
@@ -87,21 +123,39 @@
       {
         "name": "they should see the definition \u0027An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.\u0027",
         "aggregatedDurations": {
-          "average": 0.002600414,
-          "median": 0.001947103
+          "average": 0.277290277,
+          "median": 0.286760081
         },
         "durations": [
           {
-            "duration": 0.003994706,
+            "duration": 0.188121941,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:16"
           },
           {
-            "duration": 0.001947103,
+            "duration": 0.286760081,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:22"
           },
           {
-            "duration": 0.001859435,
+            "duration": 0.35698881,
             "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User profile has been loaded successfully$",
+    "steps": [
+      {
+        "name": "User profile has been loaded successfully",
+        "aggregatedDurations": {
+          "average": 0.28744518,
+          "median": 0.28744518
+        },
+        "durations": [
+          {
+            "duration": 0.28744518,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           }
         ]
       }

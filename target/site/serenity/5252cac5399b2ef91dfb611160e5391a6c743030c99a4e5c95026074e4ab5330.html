@@ -50,8 +50,8 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 1],
-                ['Pending', 1],
+                ['Passing', 2],
+                ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -83,8 +83,8 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 requirements tested successfully'},
-                {label: '1 requirements pending'},
+                {label: '2 requirements tested successfully'},
+                {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -187,7 +187,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-12-2017 18:46</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-12-2017 22:56</span>
     <br style="clear:left"/>
 </div>
 
@@ -227,9 +227,9 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
                                     <td>2</td>
-                                    <td>1</td>
+                                    <td>2</td>
                                     <td>0</td>
-                                    <td>1</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -257,31 +257,31 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>1</td>
-            <td>1 (100%)</td>
+            <td>2</td>
+            <td>2 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Manual</td>
-            <td>1</td>
+            <td>0</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
-            <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>2</td>
-            <td>1 (50%)</td>
+            <td>2 (100%)</td>
             <td>0 (0%)</td>
-            <td>1 (50%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">15 seconds</td>
+                <td colspan="5">25 seconds</td>
         </tr>
         </body>
     </table>
@@ -328,16 +328,16 @@
                                 <td class="SUCCESS-text">8</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2017-12-23 18:46:12">18:46:12</td>
+                                <td class="SUCCESS-text" data-sort="2017-12-23 22:56:30">22:56:30</td>
 
-                                <td class="SUCCESS-text">8.74</td>
+                                <td class="SUCCESS-text">7.12</td>
                             </tr>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                                    <i class="fa fa-user manual" title="Manual test"></i>
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="830af9bb6bab08a3bcf6c0ff03222ca32381fd3631cc518baf92d1f9860fa1ef.html" class="ellipsis"
@@ -348,12 +348,12 @@
                                     </div>
                                 </td>
 
-                                <td class="PENDING-text">24</td>
+                                <td class="SUCCESS-text">24</td>
 
 
-                                <td class="PENDING-text" data-sort="2017-12-23 18:46:20">18:46:20</td>
+                                <td class="SUCCESS-text" data-sort="2017-12-23 22:56:37">22:56:37</td>
 
-                                <td class="PENDING-text">5.78</td>
+                                <td class="SUCCESS-text">18.15</td>
                             </tr>
                         </tbody>
                     </table>
