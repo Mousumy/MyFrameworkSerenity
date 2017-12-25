@@ -5,40 +5,40 @@
       {
         "name": "User can log in to facebook using userid as \"asmenterprise.llc@gmail.com\" and password as \"ctg310306\"",
         "aggregatedDurations": {
-          "average": 8.765739283,
-          "median": 8.843145259
+          "average": 9.468535759,
+          "median": 9.072402917
         },
         "durations": [
           {
-            "duration": 8.880192615,
+            "duration": 13.286589019,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           },
           {
-            "duration": 9.174135981,
+            "duration": 8.640016764,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           },
           {
-            "duration": 9.049576944,
+            "duration": 9.426050049,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           },
           {
-            "duration": 8.806097903,
+            "duration": 8.321769029,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           },
           {
-            "duration": 8.267239864,
+            "duration": 8.376734827,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           },
           {
-            "duration": 8.9460858,
+            "duration": 9.406264259,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           },
           {
-            "duration": 8.200282679,
+            "duration": 8.738541575,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           },
           {
-            "duration": 8.802302483,
+            "duration": 9.552320552,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           }
         ]
@@ -51,12 +51,12 @@
       {
         "name": "Verify header \"Life Event\" is present",
         "aggregatedDurations": {
-          "average": 0.603431059,
-          "median": 0.603431059
+          "average": 0.614497005,
+          "median": 0.614497005
         },
         "durations": [
           {
-            "duration": 0.603431059,
+            "duration": 0.614497005,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:17"
           }
         ]
@@ -69,13 +69,13 @@
       {
         "name": "About tab has this feature option \"Work and Education\"",
         "aggregatedDurations": {
-          "average": 10.454498373,
-          "median": 10.454498373
+          "average": 10.517128995,
+          "median": 10.517128995
         },
         "durations": [
           {
-            "duration": 10.454498373,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:47"
+            "duration": 10.517128995,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:48"
           }
         ]
       }
@@ -87,52 +87,13 @@
       {
         "name": "Verify this header \"Photos\" is present",
         "aggregatedDurations": {
-          "average": 1.177620497,
-          "median": 1.177620497
+          "average": 1.09722047,
+          "median": 1.09722047
         },
         "durations": [
           {
-            "duration": 1.177620497,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:21"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "the user looks up the definition of the word \u0027(.*)\u0027",
-    "steps": [
-      {
-        "name": "the user looks up the definition of the word \u0027apple\u0027",
-        "aggregatedDurations": {
-          "average": 0.754087186,
-          "median": 0.754087186
-        },
-        "durations": [
-          {
-            "duration": 0.754087186,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:9"
-          }
-        ]
-      },
-      {
-        "name": "the user looks up the definition of the word \u0027pear\u0027",
-        "aggregatedDurations": {
-          "average": 0.747574745,
-          "median": 0.744563784
-        },
-        "durations": [
-          {
-            "duration": 0.763000327,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:15"
-          },
-          {
-            "duration": 0.735160124,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:21"
-          },
-          {
-            "duration": 0.744563784,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:27"
+            "duration": 1.09722047,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:22"
           }
         ]
       }
@@ -144,17 +105,17 @@
       {
         "name": "User will search for \"Sunil C Patel\"",
         "aggregatedDurations": {
-          "average": 1.39285563,
-          "median": 1.39285563
+          "average": 1.329338913,
+          "median": 1.329338913
         },
         "durations": [
           {
-            "duration": 1.890169329,
+            "duration": 1.65393601,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:12"
           },
           {
-            "duration": 0.895541932,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:31"
+            "duration": 1.004741816,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:32"
           }
         ]
       }
@@ -166,12 +127,12 @@
       {
         "name": "Navigate to \"Timeline\"",
         "aggregatedDurations": {
-          "average": 3.919150938,
-          "median": 3.919150938
+          "average": 3.881549985,
+          "median": 3.881549985
         },
         "durations": [
           {
-            "duration": 3.919150938,
+            "duration": 3.881549985,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:16"
           }
         ]
@@ -179,39 +140,39 @@
       {
         "name": "Navigate to \"more\"",
         "aggregatedDurations": {
-          "average": 3.956139492,
-          "median": 3.956139492
+          "average": 4.09915902,
+          "median": 4.09915902
         },
         "durations": [
           {
-            "duration": 3.956139492,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:25"
+            "duration": 4.09915902,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:26"
           }
         ]
       },
       {
         "name": "Navigate to \"Friends\"",
         "aggregatedDurations": {
-          "average": 3.996817835,
-          "median": 3.996817835
+          "average": 3.991829691,
+          "median": 3.991829691
         },
         "durations": [
           {
-            "duration": 3.996817835,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:30"
+            "duration": 3.991829691,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:31"
           }
         ]
       },
       {
         "name": "Navigate to \"About\"",
         "aggregatedDurations": {
-          "average": 4.070107705,
-          "median": 4.070107705
+          "average": 4.018206894,
+          "median": 4.018206894
         },
         "durations": [
           {
-            "duration": 4.070107705,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:46"
+            "duration": 4.018206894,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:47"
           }
         ]
       }
@@ -223,13 +184,13 @@
       {
         "name": "verify more functionality is working",
         "aggregatedDurations": {
-          "average": 5.080032672,
-          "median": 5.080032672
+          "average": 5.241915543,
+          "median": 5.241915543
         },
         "durations": [
           {
-            "duration": 5.080032672,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:26"
+            "duration": 5.241915543,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:27"
           }
         ]
       }
@@ -241,82 +202,13 @@
       {
         "name": "Verify \"Work \u0026 Education\" funtionality should work",
         "aggregatedDurations": {
-          "average": 15.5170533,
-          "median": 15.5170533
+          "average": 15.445798204,
+          "median": 15.445798204
         },
         "durations": [
           {
-            "duration": 15.5170533,
+            "duration": 15.445798204,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:18"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "the user is on the Wikionary home page",
-    "steps": [
-      {
-        "name": "the user is on the Wikionary home page",
-        "aggregatedDurations": {
-          "average": 4.664481503,
-          "median": 3.939857891
-        },
-        "durations": [
-          {
-            "duration": 7.00786582,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:8"
-          },
-          {
-            "duration": 3.77034441,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:14"
-          },
-          {
-            "duration": 3.919542668,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:20"
-          },
-          {
-            "duration": 3.960173114,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:26"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "they should see the definition \u0027(.*)\u0027",
-    "steps": [
-      {
-        "name": "they should see the definition \u0027A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.\u0027",
-        "aggregatedDurations": {
-          "average": 0.728566571,
-          "median": 0.728566571
-        },
-        "durations": [
-          {
-            "duration": 0.728566571,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:10"
-          }
-        ]
-      },
-      {
-        "name": "they should see the definition \u0027An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.\u0027",
-        "aggregatedDurations": {
-          "average": 0.297242565,
-          "median": 0.285376624
-        },
-        "durations": [
-          {
-            "duration": 0.375382589,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:16"
-          },
-          {
-            "duration": 0.285376624,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:22"
-          },
-          {
-            "duration": 0.230968484,
-            "location": "src/test/resources/features/consult_dictionary/DefinitionApple.feature:28"
           }
         ]
       }
@@ -328,40 +220,40 @@
       {
         "name": "User profile has been loaded successfully",
         "aggregatedDurations": {
-          "average": 0.211467405,
-          "median": 0.194962249
+          "average": 0.187877804,
+          "median": 0.192786992
         },
         "durations": [
           {
-            "duration": 0.214680896,
+            "duration": 0.20952554,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           },
           {
-            "duration": 0.195483986,
+            "duration": 0.202899914,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           },
           {
-            "duration": 0.202280673,
+            "duration": 0.194369094,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           },
           {
-            "duration": 0.187526648,
+            "duration": 0.20613297,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           },
           {
-            "duration": 0.193409014,
+            "duration": 0.19120489,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           },
           {
-            "duration": 0.190759276,
+            "duration": 0.177351931,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           },
           {
-            "duration": 0.313158238,
+            "duration": 0.133166406,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           },
           {
-            "duration": 0.194440512,
+            "duration": 0.18837169,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           }
         ]

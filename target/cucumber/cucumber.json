@@ -1,276 +1,5 @@
 [
   {
-    "line": 2,
-    "elements": [
-      {
-        "line": 7,
-        "name": "Looking up the definition of \u0027apple\u0027",
-        "description": "",
-        "id": "lookup-a-definition;looking-up-the-definition-of--apple-",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 7007865820,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "the user is on the Wikionary home page",
-            "match": {
-              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 754087186,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "the user looks up the definition of the word \u0027apple\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "apple",
-                  "offset": 46
-                }
-              ],
-              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 728566571,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "they should see the definition \u0027A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
-                  "offset": 32
-                }
-              ],
-              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "line": 13,
-        "name": "Looking up the definition of \u0027pear\u0027",
-        "description": "",
-        "id": "lookup-a-definition;looking-up-the-definition-of--pear-",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3770344410,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "the user is on the Wikionary home page",
-            "match": {
-              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 763000327,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "the user looks up the definition of the word \u0027pear\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "pear",
-                  "offset": 46
-                }
-              ],
-              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 375382589,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "they should see the definition \u0027An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.",
-                  "offset": 32
-                }
-              ],
-              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "line": 19,
-        "name": "Looking up the definition of \u0027pear\u0027",
-        "description": "",
-        "id": "lookup-a-definition;looking-up-the-definition-of--pear-",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3919542668,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "the user is on the Wikionary home page",
-            "match": {
-              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 735160124,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "the user looks up the definition of the word \u0027pear\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "pear",
-                  "offset": 46
-                }
-              ],
-              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 285376624,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "they should see the definition \u0027An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.",
-                  "offset": 32
-                }
-              ],
-              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "line": 25,
-        "name": "Looking up the definition of \u0027pear\u0027",
-        "description": "",
-        "id": "lookup-a-definition;looking-up-the-definition-of--pear-",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3960173114,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "the user is on the Wikionary home page",
-            "match": {
-              "location": "DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 744563784,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "the user looks up the definition of the word \u0027pear\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "pear",
-                  "offset": 46
-                }
-              ],
-              "location": "DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 230968484,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "they should see the definition \u0027An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.",
-                  "offset": 32
-                }
-              ],
-              "location": "DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      }
-    ],
-    "name": "Lookup a definition",
-    "description": "  In order to talk better\n  As an English student\n  I want to look up word definitions",
-    "id": "lookup-a-definition",
-    "keyword": "Feature",
-    "uri": "src/test/resources/features/consult_dictionary/DefinitionApple.feature"
-  },
-  {
     "line": 1,
     "elements": [
       {
@@ -282,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8880192615,
+              "duration": 13286589019,
               "status": "passed"
             },
             "line": 7,
@@ -304,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 214680896,
+              "duration": 209525540,
               "status": "passed"
             },
             "line": 8,
@@ -326,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1890169329,
+              "duration": 1653936010,
               "status": "passed"
             },
             "line": 12,
@@ -358,7 +87,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9174135981,
+              "duration": 8640016764,
               "status": "passed"
             },
             "line": 7,
@@ -380,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 195483986,
+              "duration": 202899914,
               "status": "passed"
             },
             "line": 8,
@@ -402,7 +131,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3919150938,
+              "duration": 3881549985,
               "status": "passed"
             },
             "line": 16,
@@ -420,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 603431059,
+              "duration": 614497005,
               "status": "passed"
             },
             "line": 17,
@@ -438,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 15517053300,
+              "duration": 15445798204,
               "status": "passed"
             },
             "line": 18,
@@ -470,7 +199,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9049576944,
+              "duration": 9426050049,
               "status": "passed"
             },
             "line": 7,
@@ -492,7 +221,7 @@
           },
           {
             "result": {
-              "duration": 202280673,
+              "duration": 194369094,
               "status": "passed"
             },
             "line": 8,
@@ -505,7 +234,7 @@
         ]
       },
       {
-        "line": 20,
+        "line": 21,
         "name": "profilepage header verification",
         "description": "",
         "id": "lookup-a-friend-from-facebook-friend-list;profilepage-header-verification",
@@ -514,10 +243,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1177620497,
+              "duration": 1097220470,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "Verify this header \"Photos\" is present",
             "match": {
               "arguments": [
@@ -546,7 +275,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8806097903,
+              "duration": 8321769029,
               "status": "passed"
             },
             "line": 7,
@@ -568,7 +297,7 @@
           },
           {
             "result": {
-              "duration": 187526648,
+              "duration": 206132970,
               "status": "passed"
             },
             "line": 8,
@@ -581,7 +310,7 @@
         ]
       },
       {
-        "line": 24,
+        "line": 25,
         "name": "More functionality verification",
         "description": "",
         "id": "lookup-a-friend-from-facebook-friend-list;more-functionality-verification",
@@ -590,10 +319,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3956139492,
+              "duration": 4099159020,
               "status": "passed"
             },
-            "line": 25,
+            "line": 26,
             "name": "Navigate to \"more\"",
             "match": {
               "arguments": [
@@ -608,10 +337,10 @@
           },
           {
             "result": {
-              "duration": 5080032672,
+              "duration": 5241915543,
               "status": "passed"
             },
-            "line": 26,
+            "line": 27,
             "name": "verify more functionality is working",
             "match": {
               "location": "ProfilePageStepDef.verify_more_functionality_is_working()"
@@ -634,7 +363,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8267239864,
+              "duration": 8376734827,
               "status": "passed"
             },
             "line": 7,
@@ -656,7 +385,7 @@
           },
           {
             "result": {
-              "duration": 193409014,
+              "duration": 191204890,
               "status": "passed"
             },
             "line": 8,
@@ -669,7 +398,7 @@
         ]
       },
       {
-        "line": 29,
+        "line": 30,
         "name": "Friends functionality verification",
         "description": "",
         "id": "lookup-a-friend-from-facebook-friend-list;friends-functionality-verification",
@@ -678,10 +407,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3996817835,
+              "duration": 3991829691,
               "status": "passed"
             },
-            "line": 30,
+            "line": 31,
             "name": "Navigate to \"Friends\"",
             "match": {
               "arguments": [
@@ -696,10 +425,10 @@
           },
           {
             "result": {
-              "duration": 895541932,
+              "duration": 1004741816,
               "status": "passed"
             },
-            "line": 31,
+            "line": 32,
             "name": "User will search for \"Sunil C Patel\"",
             "match": {
               "arguments": [
@@ -728,7 +457,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8946085800,
+              "duration": 9406264259,
               "status": "passed"
             },
             "line": 7,
@@ -750,7 +479,7 @@
           },
           {
             "result": {
-              "duration": 190759276,
+              "duration": 177351931,
               "status": "passed"
             },
             "line": 8,
@@ -763,7 +492,7 @@
         ]
       },
       {
-        "line": 34,
+        "line": 35,
         "name": "EditPost functionality verification",
         "description": "",
         "id": "lookup-a-friend-from-facebook-friend-list;editpost-functionality-verification",
@@ -774,7 +503,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 35,
+            "line": 36,
             "name": "User will randomly select post",
             "match": {},
             "keyword": "When "
@@ -783,7 +512,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 36,
+            "line": 37,
             "name": "\"Hide From TimeLine\" functionality should work",
             "match": {},
             "keyword": "Then "
@@ -792,7 +521,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 37,
+            "line": 38,
             "name": "\"ChangeDate\" functionality should work",
             "match": {},
             "keyword": "And "
@@ -801,7 +530,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 38,
+            "line": 39,
             "name": "\"Hide from timeline\" functionality should work",
             "match": {},
             "keyword": "And "
@@ -809,7 +538,7 @@
         ],
         "tags": [
           {
-            "name": "@quick"
+            "name": "@regression"
           }
         ]
       },
@@ -822,7 +551,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8200282679,
+              "duration": 8738541575,
               "status": "passed"
             },
             "line": 7,
@@ -844,7 +573,7 @@
           },
           {
             "result": {
-              "duration": 313158238,
+              "duration": 133166406,
               "status": "passed"
             },
             "line": 8,
@@ -857,7 +586,7 @@
         ]
       },
       {
-        "line": 41,
+        "line": 42,
         "name": "MakePost functionality verification",
         "description": "",
         "id": "lookup-a-friend-from-facebook-friend-list;makepost-functionality-verification",
@@ -868,7 +597,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 42,
+            "line": 43,
             "name": "User will make new post",
             "match": {},
             "keyword": "When "
@@ -877,7 +606,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 43,
+            "line": 44,
             "name": "It wil be visible in timeline",
             "match": {},
             "keyword": "Then "
@@ -898,7 +627,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8802302483,
+              "duration": 9552320552,
               "status": "passed"
             },
             "line": 7,
@@ -920,7 +649,7 @@
           },
           {
             "result": {
-              "duration": 194440512,
+              "duration": 188371690,
               "status": "passed"
             },
             "line": 8,
@@ -933,7 +662,7 @@
         ]
       },
       {
-        "line": 45,
+        "line": 46,
         "name": "About Functionality verification",
         "description": "",
         "id": "lookup-a-friend-from-facebook-friend-list;about-functionality-verification",
@@ -942,10 +671,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4070107705,
+              "duration": 4018206894,
               "status": "passed"
             },
-            "line": 46,
+            "line": 47,
             "name": "Navigate to \"About\"",
             "match": {
               "arguments": [
@@ -960,10 +689,10 @@
           },
           {
             "result": {
-              "duration": 10454498373,
+              "duration": 10517128995,
               "status": "passed"
             },
-            "line": 47,
+            "line": 48,
             "name": "About tab has this feature option \"Work and Education\"",
             "match": {
               "arguments": [
@@ -979,7 +708,7 @@
         ],
         "tags": [
           {
-            "name": "@quick"
+            "name": "@regression"
           }
         ]
       }

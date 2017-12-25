@@ -1,33 +1,3 @@
-@smoke
-Feature: Lookup a definition
-  In order to talk better
-  As an English student
-  I want to look up word definitions
-
-  @smoke
-  Scenario: Looking up the definition of 'apple'                                                                                        [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:7[0m
-    [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                        [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
-    [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mapple[0m[32m'[0m                                                                           [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
-    [32mThen [0m[32mthey should see the definition '[0m[32m[1mA common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
-
-  @smoke @smoke
-  Scenario: Looking up the definition of 'pear'                                                                                          [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:13[0m
-    [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                         [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
-    [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mpear[0m[32m'[0m                                                                             [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
-    [32mThen [0m[32mthey should see the definition '[0m[32m[1mAn edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
-
-  @smoke @smoke
-  Scenario: Looking up the definition of 'pear'                                                                                          [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:19[0m
-    [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                         [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
-    [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mpear[0m[32m'[0m                                                                             [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
-    [32mThen [0m[32mthey should see the definition '[0m[32m[1mAn edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
-
-  @smoke @smoke
-  Scenario: Looking up the definition of 'pear'                                                                                          [90m# src/test/resources/features/consult_dictionary/DefinitionApple.feature:25[0m
-    [32mGiven [0m[32mthe user is on the Wikionary home page[0m                                                                                         [90m# DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage()[0m
-    [32mWhen [0m[32mthe user looks up the definition of the word '[0m[32m[1mpear[0m[32m'[0m                                                                             [90m# DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(String)[0m
-    [32mThen [0m[32mthey should see the definition '[0m[32m[1mAn edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.[0m[32m'[0m [90m# DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(String)[0m
-
 Feature: Lookup a friend from facebook friend list
   In order to find a friend 
   As an facebook user
@@ -56,7 +26,7 @@ Feature: Lookup a friend from facebook friend list
     [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
 
   @regression
-  Scenario: profilepage header verification     [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:20[0m
+  Scenario: profilepage header verification     [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:21[0m
     [32mThen [0m[32mVerify this header "[0m[32m[1mPhotos[0m[32m" is present[0m [90m# ProfilePageStepDef.verify_this_header_is_present(String)[0m
 
   Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
@@ -64,7 +34,7 @@ Feature: Lookup a friend from facebook friend list
     [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
 
   @regression
-  Scenario: More functionality verification   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:24[0m
+  Scenario: More functionality verification   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:25[0m
     [32mAnd [0m[32mNavigate to "[0m[32m[1mmore[0m[32m"[0m                    [90m# ProfilePageStepDef.navigate_to(String)[0m
     [32mThen [0m[32mverify more functionality is working[0m [90m# ProfilePageStepDef.verify_more_functionality_is_working()[0m
 
@@ -73,7 +43,7 @@ Feature: Lookup a friend from facebook friend list
     [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
 
   @regression
-  Scenario: Friends functionality verification [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:29[0m
+  Scenario: Friends functionality verification [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:30[0m
     [32mAnd [0m[32mNavigate to "[0m[32m[1mFriends[0m[32m"[0m                  [90m# ProfilePageStepDef.navigate_to(String)[0m
     [32mAnd [0m[32mUser will search for "[0m[32m[1mSunil C Patel[0m[32m"[0m   [90m# ProfilePageStepDef.user_will_search_for(String)[0m
 
@@ -81,8 +51,8 @@ Feature: Lookup a friend from facebook friend list
     [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
     [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
 
-  @quick
-  Scenario: EditPost functionality verification         [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:34[0m
+  @regression
+  Scenario: EditPost functionality verification         [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:35[0m
     [33mWhen [0m[33mUser will randomly select post[0m                 [90m# null[0m
     [33mThen [0m[33m"Hide From TimeLine" functionality should work[0m [90m# null[0m
     [33mAnd [0m[33m"ChangeDate" functionality should work[0m          [90m# null[0m
@@ -93,7 +63,7 @@ Feature: Lookup a friend from facebook friend list
     [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
 
   @regression
-  Scenario: MakePost functionality verification [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:41[0m
+  Scenario: MakePost functionality verification [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:42[0m
     [33mWhen [0m[33mUser will make new post[0m                [90m# null[0m
     [33mThen [0m[33mIt wil be visible in timeline[0m          [90m# null[0m
 
@@ -101,7 +71,7 @@ Feature: Lookup a friend from facebook friend list
     [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
     [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
 
-  @quick
-  Scenario: About Functionality verification                    [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:45[0m
+  @regression
+  Scenario: About Functionality verification                    [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:46[0m
     [32mWhen [0m[32mNavigate to "[0m[32m[1mAbout[0m[32m"[0m                                    [90m# ProfilePageStepDef.navigate_to(String)[0m
     [32mThen [0m[32mAbout tab has this feature option "[0m[32m[1mWork and Education[0m[32m"[0m [90m# ProfilePageStepDef.about_tab_has_this_feature_option(String)[0m

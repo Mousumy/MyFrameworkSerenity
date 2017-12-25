@@ -11,12 +11,13 @@ Background:
 Scenario: Search for Friends
   	When User will search for "Sunil C Patel"
   	
-@regression
+@regression 
 Scenario: Timeline functionality verification
 	When Navigate to "Timeline"	
 	And Verify header "Life Event" is present
 	Then Verify "Work & Education" funtionality should work
-	@regression       
+	
+@regression       
 Scenario: profilepage header verification
 	Then Verify this header "Photos" is present
 	
@@ -30,7 +31,7 @@ Scenario: Friends functionality verification
 	And Navigate to "Friends"
 	And User will search for "Sunil C Patel"
 	
-@quick
+@regression
 Scenario: EditPost functionality verification
 	When User will randomly select post
 	Then "Hide From TimeLine" functionality should work
@@ -41,7 +42,7 @@ Scenario: EditPost functionality verification
 Scenario:	MakePost functionality verification
 		When User will make new post
 		Then It wil be visible in timeline
-@quick		
+@regression		
 Scenario: About Functionality verification
 	When Navigate to "About"
 	Then About tab has this feature option "Work and Education"
