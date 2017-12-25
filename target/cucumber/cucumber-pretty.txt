@@ -40,3 +40,68 @@ Feature: Lookup a friend from facebook friend list
   @regression
   Scenario: Search for Friends                [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:11[0m
     [32mWhen [0m[32mUser will search for "[0m[32m[1mSunil C Patel[0m[32m"[0m [90m# ProfilePageStepDef.user_will_search_for(String)[0m
+
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
+    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
+
+  @regression
+  Scenario: Timeline functionality verification             [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:15[0m
+    [32mWhen [0m[32mNavigate to "[0m[32m[1mTimeline[0m[32m"[0m                             [90m# ProfilePageStepDef.navigate_to(String)[0m
+    [32mAnd [0m[32mVerify header "[0m[32m[1mLife Event[0m[32m" is present[0m               [90m# ProfilePageStepDef.verify_header_is_present(String)[0m
+    [32mThen [0m[32mVerify "[0m[32m[1mWork & Education[0m[32m" funtionality should work[0m [90m# ProfilePageStepDef.verify_funtionality_should_work(String)[0m
+
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
+    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
+
+  @regression
+  Scenario: profilepage header verification     [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:20[0m
+    [32mThen [0m[32mVerify this header "[0m[32m[1mPhotos[0m[32m" is present[0m [90m# ProfilePageStepDef.verify_this_header_is_present(String)[0m
+
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
+    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
+
+  @regression
+  Scenario: More functionality verification   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:24[0m
+    [32mAnd [0m[32mNavigate to "[0m[32m[1mmore[0m[32m"[0m                    [90m# ProfilePageStepDef.navigate_to(String)[0m
+    [32mThen [0m[32mverify more functionality is working[0m [90m# ProfilePageStepDef.verify_more_functionality_is_working()[0m
+
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
+    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
+
+  @regression
+  Scenario: Friends functionality verification [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:29[0m
+    [32mAnd [0m[32mNavigate to "[0m[32m[1mFriends[0m[32m"[0m                  [90m# ProfilePageStepDef.navigate_to(String)[0m
+    [32mAnd [0m[32mUser will search for "[0m[32m[1mSunil C Patel[0m[32m"[0m   [90m# ProfilePageStepDef.user_will_search_for(String)[0m
+
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
+    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
+
+  @quick
+  Scenario: EditPost functionality verification         [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:34[0m
+    [33mWhen [0m[33mUser will randomly select post[0m                 [90m# null[0m
+    [33mThen [0m[33m"Hide From TimeLine" functionality should work[0m [90m# null[0m
+    [33mAnd [0m[33m"ChangeDate" functionality should work[0m          [90m# null[0m
+    [33mAnd [0m[33m"Hide from timeline" functionality should work[0m  [90m# null[0m
+
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
+    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
+
+  @regression
+  Scenario: MakePost functionality verification [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:41[0m
+    [33mWhen [0m[33mUser will make new post[0m                [90m# null[0m
+    [33mThen [0m[33mIt wil be visible in timeline[0m          [90m# null[0m
+
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
+    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
+
+  @quick
+  Scenario: About Functionality verification                    [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:45[0m
+    [32mWhen [0m[32mNavigate to "[0m[32m[1mAbout[0m[32m"[0m                                    [90m# ProfilePageStepDef.navigate_to(String)[0m
+    [32mThen [0m[32mAbout tab has this feature option "[0m[32m[1mWork and Education[0m[32m"[0m [90m# ProfilePageStepDef.about_tab_has_this_feature_option(String)[0m

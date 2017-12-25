@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="application.TestSuite" time="42.244" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="application.TestSuite" time="152.933" tests="16" errors="0" skipped="6" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Saikat\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5538645989159323834.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Saikat\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2097578342407482491.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_65/bin/server;C:/Program Files/Java/jre1.8.0_65/bin;C:/Program Files/Java/jre1.8.0_65/lib/amd64;C:\app_tester\tester\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\ProgramData\Lenovo\ReadyApps;C:\Users\Saikat\Desktop\WorkStation\Selenium_WorkSpace\ANT\apache-ant-1.9.6\bin;C:\Program Files (x86)\Skype\Phone\;C:\Maven\apache-maven-3.5.0\bin;C:\Program Files\Java\jre1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\instantclient_12_1;C:\Ruby200-x64\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jre1.8.0_65\bin;C:\instantclient_12_1;E:\test_soft\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,9 +60,42 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Looking up the definition of &apos;apple&apos;" classname="Lookup a definition" time="6.905"/>
-  <testcase name="Looking up the definition of &apos;pear&apos;" classname="Lookup a definition" time="5.906"/>
-  <testcase name="Looking up the definition of &apos;pear&apos;" classname="Lookup a definition" time="6.083"/>
-  <testcase name="Looking up the definition of &apos;pear&apos;" classname="Lookup a definition" time="6.157"/>
-  <testcase name="Search for Friends" classname="Lookup a friend from facebook friend list" time="13.342"/>
+  <testcase name="Looking up the definition of &apos;apple&apos;" classname="Lookup a definition" time="8.576"/>
+  <testcase name="Looking up the definition of &apos;pear&apos;" classname="Lookup a definition" time="4.987"/>
+  <testcase name="Looking up the definition of &apos;pear&apos;" classname="Lookup a definition" time="4.971"/>
+  <testcase name="Looking up the definition of &apos;pear&apos;" classname="Lookup a definition" time="4.995"/>
+  <testcase name="Search for Friends" classname="Lookup a friend from facebook friend list" time="11.085"/>
+  <testcase name="Timeline functionality verification" classname="Lookup a friend from facebook friend list" time="29.501"/>
+  <testcase name="profilepage header verification" classname="Lookup a friend from facebook friend list" time="10.508"/>
+  <testcase name="More functionality verification" classname="Lookup a friend from facebook friend list" time="18.432"/>
+  <testcase name="Friends functionality verification" classname="Lookup a friend from facebook friend list" time="13.462"/>
+  <testcase name="EditPost functionality verification" classname="Lookup a friend from facebook friend list" time="0">
+    <skipped/>
+    <system-err><![CDATA[Dec 24, 2017 8:35:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[INFO] Facebook login has been succesful
+[INFO] Landing Page title = Enter Asm
+]]></system-err>
+  </testcase>
+  <testcase name="EditPost functionality verification" classname="Lookup a friend from facebook friend list" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="EditPost functionality verification" classname="Lookup a friend from facebook friend list" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="EditPost functionality verification" classname="Lookup a friend from facebook friend list" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="MakePost functionality verification" classname="Lookup a friend from facebook friend list" time="0">
+    <skipped/>
+    <system-err><![CDATA[Dec 24, 2017 8:35:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[INFO] Facebook login has been succesful
+[INFO] Landing Page title = Enter Asm
+]]></system-err>
+  </testcase>
+  <testcase name="MakePost functionality verification" classname="Lookup a friend from facebook friend list" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="About Functionality verification" classname="Lookup a friend from facebook friend list" time="23.674"/>
 </testsuite>

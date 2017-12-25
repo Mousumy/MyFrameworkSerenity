@@ -50,8 +50,8 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 2],
-                ['Pending', 0],
+                ['Passing', 1],
+                ['Pending', 1],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -83,8 +83,8 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '2 requirements tested successfully'},
-                {label: '0 requirements pending'},
+                {label: '1 requirements tested successfully'},
+                {label: '1 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -186,7 +186,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-12-2017 22:56</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-12-2017 20:33</span>
     <br style="clear:left"/>
 </div>
 
@@ -225,18 +225,18 @@
                                     <tr>
                                         <td class="summary-leading-column"><a href="#requirements-tabs">Features</a></td>
                                         <td>2</td>
-                                        <td>2</td>
+                                        <td>1</td>
                                         <td>0</td>
-                                        <td>0</td>
+                                        <td>1</td>
                                         <td>0</td>
                                     </tr>
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
-                                    <td>3</td>
-                                    <td>3</td>
+                                    <td>10</td>
+                                    <td>8</td>
                                     <td>0</td>
-                                    <td>0</td>
+                                    <td>2</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -264,10 +264,10 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>3</td>
-            <td>3 (100%)</td>
+            <td>10</td>
+            <td>8 (80%)</td>
             <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>2 (20%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -280,15 +280,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>3</td>
-            <td>3 (100%)</td>
+            <td>10</td>
+            <td>8 (80%)</td>
             <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>2 (20%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">39 seconds</td>
+                <td colspan="5">2 minutes 28 seconds</td>
         </tr>
         </body>
     </table>
@@ -447,14 +447,14 @@ I want to look up word definitions</div>
                 </tr>
 
 
-                <tr class="test-SUCCESS requirementRow">
+                <tr class="test-PENDING requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                        <span style="display:none">1</span>
+                        <span class="status_icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                        <span style="display:none">2</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="SUCCESS-text requirementRowCell">
+                    <td class="PENDING-text requirementRowCell">
                         <a href="javaScript:void(0)" class="read-more-link">
                             <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
@@ -466,10 +466,10 @@ I want to search friend from list</div>
                     </td>
 
 
-                    <td class="greentext highlighted-value requirementRowCell">1</td>
+                    <td class="greentext highlighted-value requirementRowCell">8</td>
 <!--
-                    <td class="greentext requirementRowCell">1</td>
-                    <td class="bluetext requirementRowCell">0</td>
+                    <td class="greentext requirementRowCell">6</td>
+                    <td class="bluetext requirementRowCell">2</td>
                     <td class="redtext requirementRowCell">0</td>
                     <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
@@ -488,71 +488,71 @@ I want to search friend from list</div>
 <table>
     <tr>
         <td width="40px">
-            <div class="small">100%</div>
+            <div class="small">75%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
-                 title="  - Total tests: 1
-  - Passing tests: 1 (100%)
+                 title="  - Total tests: 8
+  - Passing tests: 6 (75%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
+  - Pending tests: 2 (25%)
   - Ignored or skipped tests: 0 (0%)"
                  style="width: 125px;">
                 <div class="pendingbar"
-                     title="  - Total tests: 1
-  - Passing tests: 1 (100%)
+                     title="  - Total tests: 8
+  - Passing tests: 6 (75%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
+  - Pending tests: 2 (25%)
   - Ignored or skipped tests: 0 (0%)"
                      style="width: 125px;">
                     <div class="ignoredbar"
-                         style="width: 125px;"
-                         title="  - Total tests: 1
-  - Passing tests: 1 (100%)
+                         style="width: 94px;"
+                         title="  - Total tests: 8
+  - Passing tests: 6 (75%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
+  - Pending tests: 2 (25%)
   - Ignored or skipped tests: 0 (0%)">
                         <div class="compromisedbar"
-                             style="width: 125px;"
-                             title="  - Total tests: 1
-  - Passing tests: 1 (100%)
+                             style="width: 94px;"
+                             title="  - Total tests: 8
+  - Passing tests: 6 (75%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
+  - Pending tests: 2 (25%)
   - Ignored or skipped tests: 0 (0%)">
                             <div class="errorbar"
-                                 style="width: 125px;"
-                                 title="  - Total tests: 1
-  - Passing tests: 1 (100%)
+                                 style="width: 94px;"
+                                 title="  - Total tests: 8
+  - Passing tests: 6 (75%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
+  - Pending tests: 2 (25%)
   - Ignored or skipped tests: 0 (0%)">
                                 <div class="failingbar"
-                                     style="width: 125px;"
-                                     title="  - Total tests: 1
-  - Passing tests: 1 (100%)
+                                     style="width: 94px;"
+                                     title="  - Total tests: 8
+  - Passing tests: 6 (75%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
+  - Pending tests: 2 (25%)
   - Ignored or skipped tests: 0 (0%)">
                                     <div class="passingbar"
-                                         style="width: 125px;"
-                                         title="  - Total tests: 1
-  - Passing tests: 1 (100%)
+                                         style="width: 94px;"
+                                         title="  - Total tests: 8
+  - Passing tests: 6 (75%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
+  - Pending tests: 2 (25%)
   - Ignored or skipped tests: 0 (0%)">
                                     </div>
                                 </div>
@@ -611,9 +611,9 @@ I want to search friend from list</div>
                                 <td class="SUCCESS-text">8</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2017-12-23 22:56:30">22:56:30</td>
+                                <td class="SUCCESS-text" data-sort="2017-12-24 20:33:50">20:33:50</td>
 
-                                <td class="SUCCESS-text">7.12</td>
+                                <td class="SUCCESS-text">8.79</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -634,9 +634,9 @@ I want to search friend from list</div>
                                 <td class="SUCCESS-text">24</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2017-12-23 22:56:37">22:56:37</td>
+                                <td class="SUCCESS-text" data-sort="2017-12-24 20:33:59">20:33:59</td>
 
-                                <td class="SUCCESS-text">18.15</td>
+                                <td class="SUCCESS-text">14.97</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -657,9 +657,170 @@ I want to search friend from list</div>
                                 <td class="SUCCESS-text">7</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2017-12-23 22:56:55">22:56:55</td>
+                                <td class="SUCCESS-text" data-sort="2017-12-24 20:34:14">20:34:14</td>
 
-                                <td class="SUCCESS-text">13.34</td>
+                                <td class="SUCCESS-text">11.09</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="27560a172d470dc93269b2f541a72bf41bbe10434459c2f6f1bbc5403d6057d0.html" class="ellipsis"
+                                           title="Timeline functionality verification ">
+                                            Timeline functionality verification
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">11</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2017-12-24 20:34:25">20:34:25</td>
+
+                                <td class="SUCCESS-text">29.5</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="5b947000b71c6582a1e0c2768f74a465fdbd70c6b34a472ee5812ab8e4c8b63c.html" class="ellipsis"
+                                           title="profilepage header verification ">
+                                            profilepage header verification
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">7</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2017-12-24 20:34:54">20:34:54</td>
+
+                                <td class="SUCCESS-text">10.51</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="567d3c68a931bf5b6f121f170839c7b3b36598cae01c86eb4590c419c7c35ba4.html" class="ellipsis"
+                                           title="More functionality verification ">
+                                            More functionality verification
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">9</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2017-12-24 20:35:05">20:35:05</td>
+
+                                <td class="SUCCESS-text">18.43</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="11066b982a74bf29d1557f36ec20e81e01fe7ebef7a901a4dfaeef81367a76c0.html" class="ellipsis"
+                                           title="Friends functionality verification ">
+                                            Friends functionality verification
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">9</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2017-12-24 20:35:23">20:35:23</td>
+
+                                <td class="SUCCESS-text">13.46</td>
+                            </tr>
+
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                    
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
+                                    <div class="ellipsis">
+
+                                        <a href="9238ba715e17f66698fdfe9620bf4f6552668ccf8a01aa573a5eaf6326ad141a.html" class="ellipsis"
+                                           title="EditPost functionality verification ">
+                                            EditPost functionality verification
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="PENDING-text">9</td>
+
+
+                                <td class="PENDING-text" data-sort="2017-12-24 20:35:36">20:35:36</td>
+
+                                <td class="PENDING-text">9.22</td>
+                            </tr>
+
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                    
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
+                                    <div class="ellipsis">
+
+                                        <a href="b0a46e53b3ab8e644ca3fb284e56dce54a788c89bd16227bbd05f6374ea0b6bc.html" class="ellipsis"
+                                           title="MakePost functionality verification ">
+                                            MakePost functionality verification
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="PENDING-text">7</td>
+
+
+                                <td class="PENDING-text" data-sort="2017-12-24 20:35:46">20:35:46</td>
+
+                                <td class="PENDING-text">8.57</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="47e6969991086b22a356fcd5a42c38f4b730bda128874d26a89ce5257ec92cf1.html" class="ellipsis"
+                                           title="About Functionality verification ">
+                                            About Functionality verification
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">9</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2017-12-24 20:35:54">20:35:54</td>
+
+                                <td class="SUCCESS-text">23.67</td>
                             </tr>
                         </tbody>
                     </table>
