@@ -347,32 +347,6 @@ public void MakeAPost() {
 	help.waitInSeconds(2);
 	Log.info("make a post");
 	
-	
-	
-	
-
-//	Assert.assertEquals("", "");
-	
-	
-	
-//	btn_feel.click();
-//	help.waitInSeconds(3);
-//	help.hoverElement(btn_postinfo.get(btn_postinfo.size()-1));
-//	help.waitInSeconds(1);
-//	Log.info("SCROLLED DOWN");
-//	Scroll.to(btns_postinfo.get(2));
-//	
-//	try {
-//		btn_postinfo.wait(3);
-//	} catch (InterruptedException e) {
-//		// TODO Auto-generated catch block
-//		e.printStackTrace();
-//	}
-//	help.clickOnElementsByText(btn_postinfo, "Feeling/Activity");
-//	help.waitInSeconds(3);
-		
-//	Scroll.to(lnk_editposts.get(lnk_editposts.size()-1));
-	
 }
 
 	public void PostIsVisible() {

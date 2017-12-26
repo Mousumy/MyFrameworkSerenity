@@ -65,6 +65,32 @@ public class ProfilePageStepDef {
 	@Then("^verify more functionality is working$")
 	public void verify_more_functionality_is_working(){
 		step.moreFunctionIsWorked();
-
 }
+//	new steps added to check
+	
+	@When("^User will randomly select post$")
+	public void user_will_randomly_select_post(){
+		step.randomlySelectPost();
+	   
+	}
+
+	@Then("^\"([^\"]*)\" functionality should work$")
+	public void functionality_should_work( String func) {
+		step.verifyEditPostFunctionality(func);
+	
+	}
+
+	@When("^User will make new post$")
+	public void user_will_make_new_post(){
+		step.MakeAPost();
+	 
+	}
+
+	@Then("^It wil be visible in timeline$")
+	public void it_wil_be_visible_in_timeline(){
+	}	
+	
+	
+	
+	
 }

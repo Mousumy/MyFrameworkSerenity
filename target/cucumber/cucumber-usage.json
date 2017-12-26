@@ -5,40 +5,16 @@
       {
         "name": "User can log in to facebook using userid as \"asmenterprise.llc@gmail.com\" and password as \"ctg310306\"",
         "aggregatedDurations": {
-          "average": 9.468535759,
-          "median": 9.072402917
+          "average": 10.86276747,
+          "median": 10.86276747
         },
         "durations": [
           {
-            "duration": 13.286589019,
+            "duration": 12.294789691,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           },
           {
-            "duration": 8.640016764,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
-          },
-          {
-            "duration": 9.426050049,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
-          },
-          {
-            "duration": 8.321769029,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
-          },
-          {
-            "duration": 8.376734827,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
-          },
-          {
-            "duration": 9.406264259,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
-          },
-          {
-            "duration": 8.738541575,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
-          },
-          {
-            "duration": 9.552320552,
+            "duration": 9.430745249,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           }
         ]
@@ -46,169 +22,54 @@
     ]
   },
   {
-    "source": "^Verify header \"([^\"]*)\" is present$",
+    "source": "^It wil be visible in timeline$",
     "steps": [
       {
-        "name": "Verify header \"Life Event\" is present",
+        "name": "It wil be visible in timeline",
         "aggregatedDurations": {
-          "average": 0.614497005,
-          "median": 0.614497005
+          "average": 0.001177756,
+          "median": 0.001177756
         },
         "durations": [
           {
-            "duration": 0.614497005,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:17"
+            "duration": 0.001177756,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:44"
           }
         ]
       }
     ]
   },
   {
-    "source": "^About tab has this feature option \"([^\"]*)\"$",
+    "source": "^User will randomly select post$",
     "steps": [
       {
-        "name": "About tab has this feature option \"Work and Education\"",
+        "name": "User will randomly select post",
         "aggregatedDurations": {
-          "average": 10.517128995,
-          "median": 10.517128995
+          "average": 3.178031898,
+          "median": 3.178031898
         },
         "durations": [
           {
-            "duration": 10.517128995,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:48"
+            "duration": 3.178031898,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:36"
           }
         ]
       }
     ]
   },
   {
-    "source": "^Verify this header \"([^\"]*)\" is present$",
+    "source": "^\"([^\"]*)\" functionality should work$",
     "steps": [
       {
-        "name": "Verify this header \"Photos\" is present",
+        "name": "\"Hide From TimeLine\" functionality should work",
         "aggregatedDurations": {
-          "average": 1.09722047,
-          "median": 1.09722047
+          "average": 5.333060776,
+          "median": 5.333060776
         },
         "durations": [
           {
-            "duration": 1.09722047,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:22"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User will search for \"([^\"]*)\"$",
-    "steps": [
-      {
-        "name": "User will search for \"Sunil C Patel\"",
-        "aggregatedDurations": {
-          "average": 1.329338913,
-          "median": 1.329338913
-        },
-        "durations": [
-          {
-            "duration": 1.65393601,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:12"
-          },
-          {
-            "duration": 1.004741816,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:32"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Navigate to \"([^\"]*)\"$",
-    "steps": [
-      {
-        "name": "Navigate to \"Timeline\"",
-        "aggregatedDurations": {
-          "average": 3.881549985,
-          "median": 3.881549985
-        },
-        "durations": [
-          {
-            "duration": 3.881549985,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:16"
-          }
-        ]
-      },
-      {
-        "name": "Navigate to \"more\"",
-        "aggregatedDurations": {
-          "average": 4.09915902,
-          "median": 4.09915902
-        },
-        "durations": [
-          {
-            "duration": 4.09915902,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:26"
-          }
-        ]
-      },
-      {
-        "name": "Navigate to \"Friends\"",
-        "aggregatedDurations": {
-          "average": 3.991829691,
-          "median": 3.991829691
-        },
-        "durations": [
-          {
-            "duration": 3.991829691,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:31"
-          }
-        ]
-      },
-      {
-        "name": "Navigate to \"About\"",
-        "aggregatedDurations": {
-          "average": 4.018206894,
-          "median": 4.018206894
-        },
-        "durations": [
-          {
-            "duration": 4.018206894,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:47"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^verify more functionality is working$",
-    "steps": [
-      {
-        "name": "verify more functionality is working",
-        "aggregatedDurations": {
-          "average": 5.241915543,
-          "median": 5.241915543
-        },
-        "durations": [
-          {
-            "duration": 5.241915543,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:27"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Verify \"([^\"]*)\" funtionality should work$",
-    "steps": [
-      {
-        "name": "Verify \"Work \u0026 Education\" funtionality should work",
-        "aggregatedDurations": {
-          "average": 15.445798204,
-          "median": 15.445798204
-        },
-        "durations": [
-          {
-            "duration": 15.445798204,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:18"
+            "duration": 5.333060776,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:37"
           }
         ]
       }
@@ -220,41 +81,35 @@
       {
         "name": "User profile has been loaded successfully",
         "aggregatedDurations": {
-          "average": 0.187877804,
-          "median": 0.192786992
+          "average": 0.215417528,
+          "median": 0.215417528
         },
         "durations": [
           {
-            "duration": 0.20952554,
+            "duration": 0.221830825,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
           },
           {
-            "duration": 0.202899914,
+            "duration": 0.209004231,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User will make new post$",
+    "steps": [
+      {
+        "name": "User will make new post",
+        "aggregatedDurations": {
+          "average": 12.755415048,
+          "median": 12.755415048
+        },
+        "durations": [
           {
-            "duration": 0.194369094,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
-          },
-          {
-            "duration": 0.20613297,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
-          },
-          {
-            "duration": 0.19120489,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
-          },
-          {
-            "duration": 0.177351931,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
-          },
-          {
-            "duration": 0.133166406,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
-          },
-          {
-            "duration": 0.18837169,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
+            "duration": 12.755415048,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:43"
           }
         ]
       }

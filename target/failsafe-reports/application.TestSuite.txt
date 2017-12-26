@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: application.TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 142.359 sec - in application.TestSuite
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 81.042 sec <<< FAILURE! - in application.TestSuite
+EditPost functionality verification(Lookup a friend from facebook friend list)  Time elapsed: 54.353 sec  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: Timed out after 30 seconds. List elements not visible
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'THINKPAD-PC', ip: '192.168.1.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+

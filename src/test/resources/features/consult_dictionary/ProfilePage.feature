@@ -31,14 +31,14 @@ Scenario: Friends functionality verification
 	And Navigate to "Friends"
 	And User will search for "Sunil C Patel"
 	
-@regression
+@smoke
 Scenario: EditPost functionality verification
 	When User will randomly select post
 	Then "Hide From TimeLine" functionality should work
 	And "ChangeDate" functionality should work
 	And "Hide from timeline" functionality should work	
 
-@regression
+@smoke
 Scenario:	MakePost functionality verification
 		When User will make new post
 		Then It wil be visible in timeline

@@ -1,59 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="8" time="129.111852">
-<testcase classname="Lookup a friend from facebook friend list" name="Search for Friends" time="15.385024">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="76.680176">
+<testcase classname="Lookup a friend from facebook friend list" name="EditPost functionality verification" time="54.27584">
+<failure message="net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Timed out after 30 seconds. List elements not visible&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'THINKPAD-PC', ip: '192.168.1.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElements(SmartAjaxElementLocator.java:202)&#13;&#10;&#9;at net.thucydides.core.annotations.locators.SmartListHandler.invoke(SmartListHandler.java:42)&#13;&#10;&#9;at com.sun.proxy.$Proxy25.get(Unknown Source)&#13;&#10;&#9;at application.pages.ProfilePage.verifyEditPostFunctionality(ProfilePage.java:280)&#13;&#10;&#9;at application.steps.serenity.steps.verifyEditPostFunctionality(steps.java:86)&#13;&#10;&#9;at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.CGLIB$verifyEditPostFunctionality$3(&lt;generated&gt;)&#13;&#10;&#9;at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5$$FastClassByCGLIB$$1ac4420.invoke(&lt;generated&gt;)&#13;&#10;&#9;at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:426)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:411)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:386)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)&#13;&#10;&#9;at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.verifyEditPostFunctionality(&lt;generated&gt;)&#13;&#10;&#9;at application.steps.ProfilePageStepDef.functionality_should_work(ProfilePageStepDef.java:79)&#13;&#10;&#9;at ✽.&quot;ChangeDate&quot; functionality should work(src/test/resources/features/consult_dictionary/ProfilePage.feature:38)&#13;&#10;"><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
+And User profile has been loaded successfully...............................passed
+When User will randomly select post.........................................passed
+Then "Hide From TimeLine" functionality should work.........................passed
+And "ChangeDate" functionality should work..................................failed
+And "Hide from timeline" functionality should work..........................skipped
+
+StackTrace:
+net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Timed out after 30 seconds. List elements not visible
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'THINKPAD-PC', ip: '192.168.1.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElements(SmartAjaxElementLocator.java:202)
+	at net.thucydides.core.annotations.locators.SmartListHandler.invoke(SmartListHandler.java:42)
+	at com.sun.proxy.$Proxy25.get(Unknown Source)
+	at application.pages.ProfilePage.verifyEditPostFunctionality(ProfilePage.java:280)
+	at application.steps.serenity.steps.verifyEditPostFunctionality(steps.java:86)
+	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.CGLIB$verifyEditPostFunctionality$3(<generated>)
+	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5$$FastClassByCGLIB$$1ac4420.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:426)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:411)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:386)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)
+	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.verifyEditPostFunctionality(<generated>)
+	at application.steps.ProfilePageStepDef.functionality_should_work(ProfilePageStepDef.java:79)
+	at ✽."ChangeDate" functionality should work(src/test/resources/features/consult_dictionary/ProfilePage.feature:38)
+]]></failure>
+</testcase>
+<testcase classname="Lookup a friend from facebook friend list" name="MakePost functionality verification" time="22.404336">
 <system-out><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
 And User profile has been loaded successfully...............................passed
-When User will search for "Sunil C Patel"...................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Lookup a friend from facebook friend list" name="Timeline functionality verification" time="28.797564">
-<system-out><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
-And User profile has been loaded successfully...............................passed
-When Navigate to "Timeline".................................................passed
-And Verify header "Life Event" is present...................................passed
-Then Verify "Work & Education" funtionality should work.....................passed
-]]></system-out>
-</testcase>
-<testcase classname="Lookup a friend from facebook friend list" name="profilepage header verification" time="10.72273">
-<system-out><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
-And User profile has been loaded successfully...............................passed
-Then Verify this header "Photos" is present.................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Lookup a friend from facebook friend list" name="More functionality verification" time="17.877041">
-<system-out><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
-And User profile has been loaded successfully...............................passed
-And Navigate to "more"......................................................passed
-Then verify more functionality is working...................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Lookup a friend from facebook friend list" name="Friends functionality verification" time="13.572559">
-<system-out><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
-And User profile has been loaded successfully...............................passed
-And Navigate to "Friends"...................................................passed
-And User will search for "Sunil C Patel"....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Lookup a friend from facebook friend list" name="EditPost functionality verification" time="9.593231">
-<skipped><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
-And User profile has been loaded successfully...............................passed
-When User will randomly select post.........................................undefined
-Then "Hide From TimeLine" functionality should work.........................undefined
-And "ChangeDate" functionality should work..................................undefined
-And "Hide from timeline" functionality should work..........................undefined
-]]></skipped>
-</testcase>
-<testcase classname="Lookup a friend from facebook friend list" name="MakePost functionality verification" time="8.877739">
-<skipped><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
-And User profile has been loaded successfully...............................passed
-When User will make new post................................................undefined
-Then It wil be visible in timeline..........................................undefined
-]]></skipped>
-</testcase>
-<testcase classname="Lookup a friend from facebook friend list" name="About Functionality verification" time="24.285964">
-<system-out><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
-And User profile has been loaded successfully...............................passed
-When Navigate to "About"....................................................passed
-Then About tab has this feature option "Work and Education".................passed
+When User will make new post................................................passed
+Then It wil be visible in timeline..........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
