@@ -8,39 +8,6 @@ Feature: Lookup a friend from facebook friend list
     [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
 
   @smoke
-  Scenario: EditPost functionality verification         [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:35[0m
-    [32mWhen [0m[32mUser will randomly select post[0m                 [90m# ProfilePageStepDef.user_will_randomly_select_post()[0m
-    [32mThen [0m[32m"[0m[32m[1mHide From TimeLine[0m[32m" functionality should work[0m [90m# ProfilePageStepDef.functionality_should_work(String)[0m
-    [31mAnd [0m[31m"[0m[31m[1mChangeDate[0m[31m" functionality should work[0m          [90m# ProfilePageStepDef.functionality_should_work(String)[0m
-      [31mnet.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Timed out after 30 seconds. List elements not visible
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'THINKPAD-PC', ip: '192.168.1.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
-	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElements(SmartAjaxElementLocator.java:202)
-	at net.thucydides.core.annotations.locators.SmartListHandler.invoke(SmartListHandler.java:42)
-	at com.sun.proxy.$Proxy25.get(Unknown Source)
-	at application.pages.ProfilePage.verifyEditPostFunctionality(ProfilePage.java:280)
-	at application.steps.serenity.steps.verifyEditPostFunctionality(steps.java:86)
-	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.CGLIB$verifyEditPostFunctionality$3(<generated>)
-	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5$$FastClassByCGLIB$$1ac4420.invoke(<generated>)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:426)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:411)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:386)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)
-	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.verifyEditPostFunctionality(<generated>)
-	at application.steps.ProfilePageStepDef.functionality_should_work(ProfilePageStepDef.java:79)
-	at ✽."ChangeDate" functionality should work(src/test/resources/features/consult_dictionary/ProfilePage.feature:38)
-[0m
-    [36mAnd [0m[36m"[0m[36m[1mHide from timeline[0m[36m" functionality should work[0m  [90m# ProfilePageStepDef.functionality_should_work(String)[0m
-
-  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
-    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
-    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
-
-  @smoke
-  Scenario: MakePost functionality verification [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:42[0m
-    [32mWhen [0m[32mUser will make new post[0m                [90m# ProfilePageStepDef.user_will_make_new_post()[0m
-    [32mThen [0m[32mIt wil be visible in timeline[0m          [90m# ProfilePageStepDef.it_wil_be_visible_in_timeline()[0m
+  Scenario: Friends functionality verification [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:30[0m
+    [32mAnd [0m[32mNavigate to "[0m[32m[1mFriends[0m[32m"[0m                  [90m# ProfilePageStepDef.navigate_to(String)[0m
+    [32mAnd [0m[32mUser will search for "[0m[32m[1mSunil C Patel[0m[32m"[0m   [90m# ProfilePageStepDef.user_will_search_for(String)[0m

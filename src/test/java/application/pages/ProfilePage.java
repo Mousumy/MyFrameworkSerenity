@@ -24,6 +24,9 @@ MyHelperMethods help;
 	
     @FindBy(css="[data-tab-key='friends']")
     private WebElementFacade btn_friends;
+    
+    @FindBy(css="[id*=u_] ._gs6")
+    private WebElementFacade btn_friends_num;
 	
     @FindBy(css="[placeholder='Search for your friends']")
     private WebElementFacade fld_input;
@@ -139,11 +142,16 @@ MyHelperMethods help;
     
     @FindBy(css="[name='cancel']")
     private WebElementFacade btn_cancl;
-    
+   
+//    search for friend and number of friends
 	public void searchFriends(String name) {
 		btn_friends.withTimeoutOf(10, TimeUnit.SECONDS).waitUntilVisible();
+		String a=btn_friends_num.getText();
+		int number = Integer.parseInt(a);
+		Log.info("friends number is ---" + number);
+        btn_friends.withTimeoutOf(10, TimeUnit.SECONDS).waitUntilVisible();
     	btn_friends.click();
-    	fld_input.waitUntilVisible();
+        fld_input.waitUntilVisible();
     	fld_input.sendKeys(name);
     	friend_profile.waitUntilPresent();
     	friend_profile.click();
@@ -245,7 +253,8 @@ MyHelperMethods help;
 	public void navigateToLink(String name) {	
 		help.clickOnElementFromListbyText(btn_profile_headers, name);
 		Log.info("here is title------" + name);
-		help.waitInSeconds(3);		
+		help.waitInSeconds(3);	
+		
 	}
 
 	

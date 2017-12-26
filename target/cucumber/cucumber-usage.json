@@ -5,16 +5,12 @@
       {
         "name": "User can log in to facebook using userid as \"asmenterprise.llc@gmail.com\" and password as \"ctg310306\"",
         "aggregatedDurations": {
-          "average": 10.86276747,
-          "median": 10.86276747
+          "average": 16.233541244,
+          "median": 16.233541244
         },
         "durations": [
           {
-            "duration": 12.294789691,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
-          },
-          {
-            "duration": 9.430745249,
+            "duration": 16.233541244,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
           }
         ]
@@ -22,54 +18,36 @@
     ]
   },
   {
-    "source": "^It wil be visible in timeline$",
+    "source": "^User will search for \"([^\"]*)\"$",
     "steps": [
       {
-        "name": "It wil be visible in timeline",
+        "name": "User will search for \"Sunil C Patel\"",
         "aggregatedDurations": {
-          "average": 0.001177756,
-          "median": 0.001177756
+          "average": 1.265586558,
+          "median": 1.265586558
         },
         "durations": [
           {
-            "duration": 0.001177756,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:44"
+            "duration": 1.265586558,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:32"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User will randomly select post$",
+    "source": "^Navigate to \"([^\"]*)\"$",
     "steps": [
       {
-        "name": "User will randomly select post",
+        "name": "Navigate to \"Friends\"",
         "aggregatedDurations": {
-          "average": 3.178031898,
-          "median": 3.178031898
+          "average": 5.517715735,
+          "median": 5.517715735
         },
         "durations": [
           {
-            "duration": 3.178031898,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:36"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^\"([^\"]*)\" functionality should work$",
-    "steps": [
-      {
-        "name": "\"Hide From TimeLine\" functionality should work",
-        "aggregatedDurations": {
-          "average": 5.333060776,
-          "median": 5.333060776
-        },
-        "durations": [
-          {
-            "duration": 5.333060776,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:37"
+            "duration": 5.517715735,
+            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:31"
           }
         ]
       }
@@ -81,35 +59,13 @@
       {
         "name": "User profile has been loaded successfully",
         "aggregatedDurations": {
-          "average": 0.215417528,
-          "median": 0.215417528
+          "average": 0.191672743,
+          "median": 0.191672743
         },
         "durations": [
           {
-            "duration": 0.221830825,
+            "duration": 0.191672743,
             "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
-          },
-          {
-            "duration": 0.209004231,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User will make new post$",
-    "steps": [
-      {
-        "name": "User will make new post",
-        "aggregatedDurations": {
-          "average": 12.755415048,
-          "median": 12.755415048
-        },
-        "durations": [
-          {
-            "duration": 12.755415048,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:43"
           }
         ]
       }

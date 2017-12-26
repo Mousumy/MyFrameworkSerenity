@@ -53,7 +53,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.5],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -61,7 +61,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors',  0.5],
+                ['Errors',  0],
                 ['Compromised',  0]
             ]
         ], {
@@ -92,18 +92,18 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 2 tests passed' },
-                {label: '0 / 2 tests pending'},
-                {label: '0 / 2 tests not executed'},
-                {label: '0 / 2 tests failed'},
-                {label: '1 / 2 errors'},
-                {label: '0 / 2 compromised tests'}
+                {label: '1 / 1 tests passed' },
+                {label: '0 / 1 tests pending'},
+                {label: '0 / 1 tests not executed'},
+                {label: '0 / 1 tests failed'},
+                {label: '0 / 1 errors'},
+                {label: '0 / 1 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.4],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -111,7 +111,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors', 0.6],
+                ['Errors', 0],
                 ['Compromised', 0],
             ]
         ], {
@@ -143,11 +143,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 2 tests passed (0.4% of all test steps)' },
-                {label: '0 / 2 tests pending'},
-                {label: '0 / 2 tests not executed'},
-                {label: '0 / 2 tests failed (0% of all test steps)'},
-                {label: '1 / 2 errors (0.6% of all test steps)'}
+                {label: '1 / 1 tests passed (1% of all test steps)' },
+                {label: '0 / 1 tests pending'},
+                {label: '0 / 1 tests not executed'},
+                {label: '0 / 1 tests failed (0% of all test steps)'},
+                {label: '0 / 1 errors (0% of all test steps)'}
             ]
         });
 
@@ -219,7 +219,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-12-2017 20:33</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-12-2017 13:04</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -233,7 +233,7 @@
     <tr>
         <td width="375px" valign="top">
             <div class="test-count-summary">
-                <span class="test-count-title">2
+                <span class="test-count-title">1
                     test scenarios </span>
                 <div>
 
@@ -242,21 +242,6 @@
                             <a href="c3bab3a5de1a50dea3afbc68167ec9e341965759c7e3c8803fe122d12261bce2.html">passed</a>
                         
                     </span>
-                    <span class="test-count"> |
-                        1
-                            <a href="b5f31aec166a12adcb5f3325b2707a046c11e8b2adc1d7e4f1c9e544d842c283.html">unsuccessful</a>
-                        
-                    </span>(
-                    <span class="test-count">
-                        0
-                            <a href="a4c7c692698a8cf481b1abf0e4253000323c583c62688205bcd39d2bc0e0b40b.html">failed</a>
-                        ,
-                    </span>
-                    <span class="test-count">
-                        1
-                            <a href="361535a161a08b2870151058d4fd70129bbf4b7a201262401ce35da96e05dacf.html">with errors</a>
-                        
-                    </span>)
 
                 
 
@@ -307,9 +292,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>2</td>
-            <td>1 (50%)</td>
-            <td>1 (50%)</td>
+            <td>1</td>
+            <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -323,15 +308,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>2</td>
-            <td>1 (50%)</td>
-            <td>1 (50%)</td>
+            <td>1</td>
+            <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">1 minutes 17 seconds</td>
+                <td colspan="5">23 seconds</td>
         </tr>
         </body>
     </table>
@@ -353,7 +338,7 @@
             </tr>
                 <tr>
                     <td class="bluetext tag-title">
-                        <span class="ERROR-text truncated-tag-title">
+                        <span class="SUCCESS-text truncated-tag-title">
                                 <a href="7122b1d5dbb6d7561aed607450894785c52f12dae18cbc2faae6200e8738a705.html" title="Lookup A Friend From Facebook Friend List">Lookup A Friend From Facebook Friend List</a>
                         </span>
                     </td>
@@ -362,27 +347,27 @@
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 2 tests (8 steps) passing">50%</span></td>
+                                <td class="related-tag-percentage"><span title="1 out of 1 tests (9 steps) passing">100%</span></td>
                                 <td width="150px">
                                     <a href="7122b1d5dbb6d7561aed607450894785c52f12dae18cbc2faae6200e8738a705.html">
                                         <div class="pendingbar"
-                                             title="0 out of 2 tests (0 steps) pending"
+                                             title="0 out of 1 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
                                                  style="width: 150px;"
-                                                 title="0 out of 2 tests (0 steps) skipped or ignored">
+                                                 title="0 out of 1 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
                                                      style="width: 150px;"
-                                                     title="0 out of 2 tests (0 steps) compromised">
+                                                     title="0 out of 1 tests (0 steps) compromised">
                                                     <div class="errorbar"
                                                          style="width: 150px;"
-                                                         title="1 out of 2 tests (12 steps) broken">
+                                                         title="0 out of 1 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 75px;"
-                                                             title="0 out of 2 tests (0 steps) failing">
+                                                             style="width: 150px;"
+                                                             title="0 out of 1 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 75px;"
-                                                                 title="1 out of 2 tests (8 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="1 out of 1 tests (9 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -391,7 +376,7 @@
                                         </div>
                                     </a>
                                 </td>
-                                <td class="related-tag-count"><span class="result-test-count" title="2 tests">2</span></td>
+                                <td class="related-tag-count"><span class="result-test-count" title="1 test">1</span></td>
                             </tr>
                         </table>
                     </td>
@@ -405,7 +390,7 @@
             </tr>
                 <tr>
                     <td class="bluetext tag-title">
-                        <span class="ERROR-text truncated-tag-title">
+                        <span class="SUCCESS-text truncated-tag-title">
                                 <a href="03ee7dcfc1c874c3ae6ada751c95952f7958e6927293924735046e6c8908e4d4.html" title="Smoke">Smoke</a>
                         </span>
                     </td>
@@ -414,27 +399,27 @@
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 2 tests (8 steps) passing">50%</span></td>
+                                <td class="related-tag-percentage"><span title="1 out of 1 tests (9 steps) passing">100%</span></td>
                                 <td width="150px">
                                     <a href="03ee7dcfc1c874c3ae6ada751c95952f7958e6927293924735046e6c8908e4d4.html">
                                         <div class="pendingbar"
-                                             title="0 out of 2 tests (0 steps) pending"
+                                             title="0 out of 1 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
                                                  style="width: 150px;"
-                                                 title="0 out of 2 tests (0 steps) skipped or ignored">
+                                                 title="0 out of 1 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
                                                      style="width: 150px;"
-                                                     title="0 out of 2 tests (0 steps) compromised">
+                                                     title="0 out of 1 tests (0 steps) compromised">
                                                     <div class="errorbar"
                                                          style="width: 150px;"
-                                                         title="1 out of 2 tests (12 steps) broken">
+                                                         title="0 out of 1 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 75px;"
-                                                             title="0 out of 2 tests (0 steps) failing">
+                                                             style="width: 150px;"
+                                                             title="0 out of 1 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 75px;"
-                                                                 title="1 out of 2 tests (8 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="1 out of 1 tests (9 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -443,7 +428,7 @@
                                         </div>
                                     </a>
                                 </td>
-                                <td class="related-tag-count"><span class="result-test-count" title="2 tests">2</span></td>
+                                <td class="related-tag-count"><span class="result-test-count" title="1 test">1</span></td>
                             </tr>
                         </table>
                     </td>
@@ -458,7 +443,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 10) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 9) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -490,9 +475,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>2</td>
-            <td>1 (50%)</td>
-            <td>1 (50%)</td>
+            <td>1</td>
+            <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -506,15 +491,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>2</td>
-            <td>1 (50%)</td>
-            <td>1 (50%)</td>
+            <td>1</td>
+            <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">1 minutes 17 seconds</td>
+                <td colspan="5">23 seconds</td>
         </tr>
         </body>
     </table>
@@ -536,7 +521,7 @@
             </tr>
                 <tr>
                     <td class="bluetext tag-title">
-                        <span class="ERROR-text truncated-tag-title">
+                        <span class="SUCCESS-text truncated-tag-title">
                                 <a href="7122b1d5dbb6d7561aed607450894785c52f12dae18cbc2faae6200e8738a705.html" title="Lookup A Friend From Facebook Friend List">Lookup A Friend From Facebook Friend List</a>
                         </span>
                     </td>
@@ -545,27 +530,27 @@
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 2 tests (8 steps) passing">40%</span></td>
+                                <td class="related-tag-percentage"><span title="1 out of 1 tests (9 steps) passing">100%</span></td>
                                 <td width="150px">
                                     <a href="7122b1d5dbb6d7561aed607450894785c52f12dae18cbc2faae6200e8738a705.html">
                                         <div class="pendingbar"
-                                             title="0 out of 2 tests (0 steps) pending"
+                                             title="0 out of 1 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
                                                  style="width: 150px;"
-                                                 title="0 out of 2 tests (0 steps) skipped or ignored">
+                                                 title="0 out of 1 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
                                                      style="width: 150px;"
-                                                     title="0 out of 2 tests (0 steps) compromised">
+                                                     title="0 out of 1 tests (0 steps) compromised">
                                                     <div class="errorbar"
                                                          style="width: 150px;"
-                                                         title="1 out of 2 tests (12 steps) broken">
+                                                         title="0 out of 1 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 60px;"
-                                                             title="0 out of 2 tests (0 steps) failing">
+                                                             style="width: 150px;"
+                                                             title="0 out of 1 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 60px;"
-                                                                 title="1 out of 2 tests (8 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="1 out of 1 tests (9 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -574,7 +559,7 @@
                                         </div>
                                     </a>
                                 </td>
-                                <td class="related-tag-count"><span class="result-test-count" title="2 tests">2</span></td>
+                                <td class="related-tag-count"><span class="result-test-count" title="1 test">1</span></td>
                             </tr>
                         </table>
                     </td>
@@ -588,7 +573,7 @@
             </tr>
                 <tr>
                     <td class="bluetext tag-title">
-                        <span class="ERROR-text truncated-tag-title">
+                        <span class="SUCCESS-text truncated-tag-title">
                                 <a href="03ee7dcfc1c874c3ae6ada751c95952f7958e6927293924735046e6c8908e4d4.html" title="Smoke">Smoke</a>
                         </span>
                     </td>
@@ -597,27 +582,27 @@
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 2 tests (8 steps) passing">40%</span></td>
+                                <td class="related-tag-percentage"><span title="1 out of 1 tests (9 steps) passing">100%</span></td>
                                 <td width="150px">
                                     <a href="03ee7dcfc1c874c3ae6ada751c95952f7958e6927293924735046e6c8908e4d4.html">
                                         <div class="pendingbar"
-                                             title="0 out of 2 tests (0 steps) pending"
+                                             title="0 out of 1 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
                                                  style="width: 150px;"
-                                                 title="0 out of 2 tests (0 steps) skipped or ignored">
+                                                 title="0 out of 1 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
                                                      style="width: 150px;"
-                                                     title="0 out of 2 tests (0 steps) compromised">
+                                                     title="0 out of 1 tests (0 steps) compromised">
                                                     <div class="errorbar"
                                                          style="width: 150px;"
-                                                         title="1 out of 2 tests (12 steps) broken">
+                                                         title="0 out of 1 tests (0 steps) broken">
                                                         <div class="failingbar"
-                                                             style="width: 60px;"
-                                                             title="0 out of 2 tests (0 steps) failing">
+                                                             style="width: 150px;"
+                                                             title="0 out of 1 tests (0 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 60px;"
-                                                                 title="1 out of 2 tests (8 steps) passing">
+                                                                 style="width: 150px;"
+                                                                 title="1 out of 1 tests (9 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -626,7 +611,7 @@
                                         </div>
                                     </a>
                                 </td>
-                                <td class="related-tag-count"><span class="result-test-count" title="2 tests">2</span></td>
+                                <td class="related-tag-count"><span class="result-test-count" title="1 test">1</span></td>
                             </tr>
                         </table>
                     </td>
@@ -662,29 +647,6 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="9238ba715e17f66698fdfe9620bf4f6552668ccf8a01aa573a5eaf6326ad141a.html" class="ellipsis"
-                                           title="EditPost functionality verification No such element exception: The follow...">
-                                            EditPost functionality verification
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="ERROR-text">12</td>
-
-
-                                <td class="ERROR-text" data-sort="2017-12-25 20:31:57">20:31:57</td>
-
-                                <td class="ERROR-text">54.57</td>
-                            </tr>
-
                             <tr class="test-SUCCESS">
                                 <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
@@ -692,20 +654,20 @@
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="b0a46e53b3ab8e644ca3fb284e56dce54a788c89bd16227bbd05f6374ea0b6bc.html" class="ellipsis"
-                                           title="MakePost functionality verification ">
-                                            MakePost functionality verification
+                                        <a href="11066b982a74bf29d1557f36ec20e81e01fe7ebef7a901a4dfaeef81367a76c0.html" class="ellipsis"
+                                           title="Friends functionality verification ">
+                                            Friends functionality verification
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">8</td>
+                                <td class="SUCCESS-text">9</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2017-12-25 20:32:52">20:32:52</td>
+                                <td class="SUCCESS-text" data-sort="2017-12-26 13:04:03">13:04:03</td>
 
-                                <td class="SUCCESS-text">22.56</td>
+                                <td class="SUCCESS-text">23.47</td>
                             </tr>
                         </tbody>
                     </table>

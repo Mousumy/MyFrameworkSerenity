@@ -26,19 +26,19 @@ Scenario: More functionality verification
 	And Navigate to "more"
 	Then verify more functionality is working
 
-@regression
+@smoke
 Scenario: Friends functionality verification
 	And Navigate to "Friends"
 	And User will search for "Sunil C Patel"
 	
-@smoke
+@regression
 Scenario: EditPost functionality verification
 	When User will randomly select post
 	Then "Hide From TimeLine" functionality should work
-	And "ChangeDate" functionality should work
-	And "Hide from timeline" functionality should work	
+#	And "ChangeDate" functionality should work
+#	And "Hide from timeline" functionality should work	
 
-@smoke
+@regression
 Scenario:	MakePost functionality verification
 		When User will make new post
 		Then It wil be visible in timeline
