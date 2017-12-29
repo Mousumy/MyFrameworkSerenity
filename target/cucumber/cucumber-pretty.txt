@@ -1,13 +1,12 @@
-Feature: Lookup a friend from facebook friend list
-  In order to find a friend 
-  As an facebook user
-  I want to search friend from list
+Feature: As a Facebook User
+		I will check all Top Menu Bar feature
 
-  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/TopMenuBar.feature:4[0m
     [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
-    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
 
   @smoke
-  Scenario: Friends functionality verification [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:30[0m
-    [32mAnd [0m[32mNavigate to "[0m[32m[1mFriends[0m[32m"[0m                  [90m# ProfilePageStepDef.navigate_to(String)[0m
-    [32mAnd [0m[32mUser will search for "[0m[32m[1mSunil C Patel[0m[32m"[0m   [90m# ProfilePageStepDef.user_will_search_for(String)[0m
+  Scenario: Find friends feature Verification [90m# src/test/resources/features/consult_dictionary/TopMenuBar.feature:9[0m
+    [32mWhen [0m[32mUser will go to "[0m[32m[1mFind friends[0m[32m"[0m       [90m# TopMenuBarStepDef.user_will_go_to(String)[0m
+    [32mAnd [0m[32mVerify "[0m[32m[1mFind friends[0m[32m" page loaded[0m     [90m# TopMenuBarStepDef.verify_page_loaded(String)[0m
+    [32mAnd [0m[32mwill send request to "[0m[32m[1mRobert Brucato[0m[32m"[0m [90m# TopMenuBarStepDef.will_send_request_to(String)[0m
+    [32mThen [0m[32mCancel the friend request[0m            [90m# TopMenuBarStepDef.cancel_the_friend_request()[0m

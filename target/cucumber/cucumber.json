@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 6,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 16233541244,
+              "duration": 13229412683,
               "status": "passed"
             },
-            "line": 7,
+            "line": 5,
             "name": "User can log in to facebook using userid as \"asmenterprise.llc@gmail.com\" and password as \"ctg310306\"",
             "match": {
               "arguments": [
@@ -30,64 +30,82 @@
               "location": "ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 191672743,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User profile has been loaded successfully",
-            "match": {
-              "location": "ProfilePageStepDef.user_profile_has_been_loaded_successfully()"
-            },
-            "keyword": "And "
           }
         ]
       },
       {
-        "line": 30,
-        "name": "Friends functionality verification",
+        "line": 9,
+        "name": "Find friends feature Verification",
         "description": "",
-        "id": "lookup-a-friend-from-facebook-friend-list;friends-functionality-verification",
+        "id": "as-a-facebook-user;find-friends-feature-verification",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5517715735,
+              "duration": 230503197,
               "status": "passed"
             },
-            "line": 31,
-            "name": "Navigate to \"Friends\"",
+            "line": 11,
+            "name": "User will go to \"Find friends\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Friends",
-                  "offset": 13
+                  "val": "Find friends",
+                  "offset": 17
                 }
               ],
-              "location": "ProfilePageStepDef.navigate_to(String)"
+              "location": "TopMenuBarStepDef.user_will_go_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4436471,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify \"Find friends\" page loaded",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find friends",
+                  "offset": 8
+                }
+              ],
+              "location": "TopMenuBarStepDef.verify_page_loaded(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1265586558,
+              "duration": 782078350,
               "status": "passed"
             },
-            "line": 32,
-            "name": "User will search for \"Sunil C Patel\"",
+            "line": 14,
+            "name": "will send request to \"Robert Brucato\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Sunil C Patel",
+                  "val": "Robert Brucato",
                   "offset": 22
                 }
               ],
-              "location": "ProfilePageStepDef.user_will_search_for(String)"
+              "location": "TopMenuBarStepDef.will_send_request_to(String)"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2599274,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Cancel the friend request",
+            "match": {
+              "location": "TopMenuBarStepDef.cancel_the_friend_request()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -97,10 +115,10 @@
         ]
       }
     ],
-    "name": "Lookup a friend from facebook friend list",
-    "description": "  In order to find a friend \n  As an facebook user\n  I want to search friend from list",
-    "id": "lookup-a-friend-from-facebook-friend-list",
+    "name": "As a Facebook User",
+    "description": "\t\tI will check all Top Menu Bar feature",
+    "id": "as-a-facebook-user",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/consult_dictionary/ProfilePage.feature"
+    "uri": "src/test/resources/features/consult_dictionary/TopMenuBar.feature"
   }
 ]

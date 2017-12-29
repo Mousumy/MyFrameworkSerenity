@@ -90,6 +90,11 @@ public class ProfilePageStepDef {
 	public void it_wil_be_visible_in_timeline(){
 	}	
 	
+	@Given("^User will check the text is available$")
+	public void user_will_check_the_text_is_available(){
+		step.checking_The_Text_Is_Available();
+	
+	}
 	
 	
 	

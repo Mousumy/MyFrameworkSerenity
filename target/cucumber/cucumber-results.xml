@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.440217">
-<testcase classname="Lookup a friend from facebook friend list" name="Friends functionality verification" time="23.440217">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.478019">
+<testcase classname="As a Facebook User" name="Find friends feature Verification" time="14.478019">
 <system-out><![CDATA[Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306".passed
-And User profile has been loaded successfully...............................passed
-And Navigate to "Friends"...................................................passed
-And User will search for "Sunil C Patel"....................................passed
+When User will go to "Find friends".........................................passed
+And Verify "Find friends" page loaded.......................................passed
+And will send request to "Robert Brucato"...................................passed
+Then Cancel the friend request..............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

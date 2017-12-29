@@ -26,7 +26,7 @@ Scenario: More functionality verification
 	And Navigate to "more"
 	Then verify more functionality is working
 
-@smoke
+@regression
 Scenario: Friends functionality verification
 	And Navigate to "Friends"
 	And User will search for "Sunil C Patel"
@@ -46,3 +46,10 @@ Scenario:	MakePost functionality verification
 Scenario: About Functionality verification
 	When Navigate to "About"
 	Then About tab has this feature option "Work and Education"
+	
+@pending
+Scenario: Text verification
+		And User will check the text is available
+		
+
+		

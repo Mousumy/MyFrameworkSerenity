@@ -1,7 +1,7 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/consult_dictionary/ProfilePage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/consult_dictionary/TopMenuBar.feature");
 formatter.feature({
-  "name": "Lookup a friend from facebook friend list",
-  "description": "  In order to find a friend \n  As an facebook user\n  I want to search friend from list",
+  "name": "As a Facebook User",
+  "description": "\t\tI will check all Top Menu Bar feature",
   "keyword": "Feature"
 });
 formatter.background({
@@ -19,18 +19,8 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.step({
-  "name": "User profile has been loaded successfully",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "ProfilePageStepDef.user_profile_has_been_loaded_successfully()"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Friends functionality verification",
+  "name": "Find friends feature Verification",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -40,21 +30,41 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "Navigate to \"Friends\"",
-  "keyword": "And "
+  "name": "User will go to \"Find friends\"",
+  "keyword": "When "
 });
 formatter.match({
-  "location": "ProfilePageStepDef.navigate_to(String)"
+  "location": "TopMenuBarStepDef.user_will_go_to(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User will search for \"Sunil C Patel\"",
+  "name": "Verify \"Find friends\" page loaded",
   "keyword": "And "
 });
 formatter.match({
-  "location": "ProfilePageStepDef.user_will_search_for(String)"
+  "location": "TopMenuBarStepDef.verify_page_loaded(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "will send request to \"Robert Brucato\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "TopMenuBarStepDef.will_send_request_to(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Cancel the friend request",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "TopMenuBarStepDef.cancel_the_friend_request()"
 });
 formatter.result({
   "status": "passed"

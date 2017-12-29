@@ -142,6 +142,9 @@ MyHelperMethods help;
     
     @FindBy(css="[name='cancel']")
     private WebElementFacade btn_cancl;
+    
+    @FindBy(css="[id*=u_]._50f6")
+    private List<WebElementFacade> lnks_strt_new_job;
    
 //    search for friend and number of friends
 	public void searchFriends(String name) {
@@ -411,6 +414,19 @@ public void MakeAPost() {
 		
 	}
 	
+	}
+
+
+
+	public void checking_The_text_Is_Available() {
+		Log.info("I am here now");
+		lnks_strt_new_job.get(0).waitUntilVisible();
+		Log.info("----------------");
+		String name=lnks_strt_new_job.get(0).getText().trim();
+		Log.info("i got the title");
+		Assert.assertEquals("Started New Job at Self-Employed", name);
+		Log.debug("The Text is ------" + name);
+		
 	}	
 	
 	

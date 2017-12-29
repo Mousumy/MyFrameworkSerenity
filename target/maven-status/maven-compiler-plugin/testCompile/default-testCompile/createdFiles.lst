@@ -1,8 +1,10 @@
 application\pages\LandingPage.class
 application\steps\serenity\EndUserSteps.class
 application\steps\DefinitionSteps.class
+application\steps\TopMenuBarStepDef.class
 application\utils\Utility.class
 application\pages\ProfilePage.class
+application\pages\TopMenuBarPage.class
 application\pages\AppleLoginPage.class
 application\steps\ProfilePageStepDef.class
 application\TestSuite.class

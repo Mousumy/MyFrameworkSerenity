@@ -5,67 +5,85 @@
       {
         "name": "User can log in to facebook using userid as \"asmenterprise.llc@gmail.com\" and password as \"ctg310306\"",
         "aggregatedDurations": {
-          "average": 16.233541244,
-          "median": 16.233541244
+          "average": 13.229412683,
+          "median": 13.229412683
         },
         "durations": [
           {
-            "duration": 16.233541244,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:7"
+            "duration": 13.229412683,
+            "location": "src/test/resources/features/consult_dictionary/TopMenuBar.feature:5"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User will search for \"([^\"]*)\"$",
+    "source": "^Verify \"([^\"]*)\" page loaded$",
     "steps": [
       {
-        "name": "User will search for \"Sunil C Patel\"",
+        "name": "Verify \"Find friends\" page loaded",
         "aggregatedDurations": {
-          "average": 1.265586558,
-          "median": 1.265586558
+          "average": 0.004436471,
+          "median": 0.004436471
         },
         "durations": [
           {
-            "duration": 1.265586558,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:32"
+            "duration": 0.004436471,
+            "location": "src/test/resources/features/consult_dictionary/TopMenuBar.feature:12"
           }
         ]
       }
     ]
   },
   {
-    "source": "^Navigate to \"([^\"]*)\"$",
+    "source": "^will send request to \"([^\"]*)\"$",
     "steps": [
       {
-        "name": "Navigate to \"Friends\"",
+        "name": "will send request to \"Robert Brucato\"",
         "aggregatedDurations": {
-          "average": 5.517715735,
-          "median": 5.517715735
+          "average": 0.78207835,
+          "median": 0.78207835
         },
         "durations": [
           {
-            "duration": 5.517715735,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:31"
+            "duration": 0.78207835,
+            "location": "src/test/resources/features/consult_dictionary/TopMenuBar.feature:14"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User profile has been loaded successfully$",
+    "source": "^User will go to \"([^\"]*)\"$",
     "steps": [
       {
-        "name": "User profile has been loaded successfully",
+        "name": "User will go to \"Find friends\"",
         "aggregatedDurations": {
-          "average": 0.191672743,
-          "median": 0.191672743
+          "average": 0.230503197,
+          "median": 0.230503197
         },
         "durations": [
           {
-            "duration": 0.191672743,
-            "location": "src/test/resources/features/consult_dictionary/ProfilePage.feature:8"
+            "duration": 0.230503197,
+            "location": "src/test/resources/features/consult_dictionary/TopMenuBar.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Cancel the friend request$",
+    "steps": [
+      {
+        "name": "Cancel the friend request",
+        "aggregatedDurations": {
+          "average": 0.002599274,
+          "median": 0.002599274
+        },
+        "durations": [
+          {
+            "duration": 0.002599274,
+            "location": "src/test/resources/features/consult_dictionary/TopMenuBar.feature:15"
           }
         ]
       }

@@ -3,6 +3,7 @@ package application.steps.serenity;
 import application.pages.LandingPage;
 import application.pages.LoginPage;
 import application.pages.ProfilePage;
+import application.pages.TopMenuBarPage;
 import net.thucydides.core.annotations.Step;
 
 
@@ -10,6 +11,7 @@ public class steps {
 	LoginPage loginpage;
 	ProfilePage profilepage;
 	LandingPage landingpage;
+	TopMenuBarPage topmenupage;
 	
 	@Step
     public void enters(String keyword) {
@@ -99,6 +101,30 @@ public class steps {
    @Step
    public void WorkAndEducationFrmAbt() {
 	   profilepage.WorkAndEducationFrmAbt();
+}
+   @Step
+   public void checking_The_Text_Is_Available() {
+	profilepage.checking_The_text_Is_Available();
+}
+   @Step
+   public void User_will_go_to() {
+	   topmenupage.User_will_go_to();
+	
+}
+   @Step
+   public void verify_Page() {
+	   topmenupage.verify_Page();
+	
+}
+   @Step
+   public void sending_Request() {
+	   topmenupage.sending_Request();
+	
+}
+   @Step
+   public void cancelling_Friend_Request() {
+	   topmenupage.cancelling_Friend_Request();
+	
 }
 
 
