@@ -3,6 +3,9 @@ package application.pages;
 
 
 import jline.internal.Log;
+
+import org.junit.Assert;
+
 import application.utils.MyHelperMethods;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
@@ -23,6 +26,9 @@ public class TopMenuBarPage extends PageObject {
 	@FindBy (css="[id*=u_] ._34f a")
 	private WebElementFacade btn_sent_req;
 	
+	@FindBy (css="[id*=u_] > h2")
+	private WebElementFacade btn_frn_page;
+	
 	
 	
 	
@@ -35,9 +41,39 @@ public class TopMenuBarPage extends PageObject {
 		btn_findFriends.waitUntilVisible();
 		btn_findFriends.click();
 		
+		
+		
 	}
 
-	public void verify_Page() {
+	public void verify_Find_Friends_Page(String pageTitle) {
+		String title = btn_frn_page.waitUntilVisible().getText().trim();
+		Log.info("The title is: " + title );
+		
+		
+		
+		boolean value = title.equalsIgnoreCase("People You May Know");
+		
+		boolean test1 = "Mousumy".equalsIgnoreCase("mousumy");
+		
+		boolean test2 = title.contains("People You May Know");
+		
+		boolean test3 = title.contains("People You");
+		
+		boolean test4 = title.equalsIgnoreCase("People You");
+		
+		
+		
+		Log.info("---------------" + value);  	//true
+		Log.info(test1);							//true
+		Log.info(test2);							//true
+		Log.info(test3);							//true
+		Log.info(test4);							//true
+		
+		Assert.assertTrue("Page does not have the title!", value);
+		
+//		Assert.assertFalse("Page does not have the title!", value);
+		Assert.assertEquals("People You May Know", title);
+	
 		
 		
 	}

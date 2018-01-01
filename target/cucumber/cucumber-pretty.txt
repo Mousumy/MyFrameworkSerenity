@@ -1,3 +1,16 @@
+Feature: Lookup a friend from facebook friend list
+  In order to find a friend 
+  As an facebook user
+  I want to search friend from list
+
+  Background:                                                                                                   [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:6[0m
+    [32mGiven [0m[32mUser can log in to facebook using userid as "[0m[32m[1masmenterprise.llc@gmail.com[0m[32m" and password as "[0m[32m[1mctg310306[0m[32m"[0m [90m# ProfilePageStepDef.user_can_log_in_to_facebook_using_userid_as_and_password_as(String,String)[0m
+    [32mAnd [0m[32mUser profile has been loaded successfully[0m                                                               [90m# ProfilePageStepDef.user_profile_has_been_loaded_successfully()[0m
+
+  @smoke
+  Scenario: Search for Friends                [90m# src/test/resources/features/consult_dictionary/ProfilePage.feature:11[0m
+    [32mWhen [0m[32mUser will search for "[0m[32m[1mSunil C Patel[0m[32m"[0m [90m# ProfilePageStepDef.user_will_search_for(String)[0m
+
 Feature: As a Facebook User
 		I will check all Top Menu Bar feature
 
@@ -8,5 +21,97 @@ Feature: As a Facebook User
   Scenario: Find friends feature Verification [90m# src/test/resources/features/consult_dictionary/TopMenuBar.feature:9[0m
     [32mWhen [0m[32mUser will go to "[0m[32m[1mFind friends[0m[32m"[0m       [90m# TopMenuBarStepDef.user_will_go_to(String)[0m
     [32mAnd [0m[32mVerify "[0m[32m[1mFind friends[0m[32m" page loaded[0m     [90m# TopMenuBarStepDef.verify_page_loaded(String)[0m
-    [32mAnd [0m[32mwill send request to "[0m[32m[1mRobert Brucato[0m[32m"[0m [90m# TopMenuBarStepDef.will_send_request_to(String)[0m
-    [32mThen [0m[32mCancel the friend request[0m            [90m# TopMenuBarStepDef.cancel_the_friend_request()[0m
+    [31mAnd [0m[31mwill send request to "[0m[31m[1mRobert Brucato[0m[31m"[0m [90m# TopMenuBarStepDef.will_send_request_to(String)[0m
+      [31mnet.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected condition failed: waiting for TopMenuBarPage.btn_frnd_req to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Mousumys-MacBook-Pro.local', ip: 'fe80:0:0:0:14c9:467b:1d4b:953%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.throwNoSuchElementExceptionWithCauseIfPresent(WebElementFacadeImpl.java:893)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:866)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilVisible(WebElementFacadeImpl.java:873)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy24.waitUntilVisible(Unknown Source)
+	at application.pages.TopMenuBarPage.sending_Request(TopMenuBarPage.java:46)
+	at application.steps.serenity.steps.sending_Request(steps.java:121)
+	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.CGLIB$sending_Request$22(<generated>)
+	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5$$FastClassByCGLIB$$1ac4420.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:426)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:411)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:386)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)
+	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.sending_Request(<generated>)
+	at application.steps.TopMenuBarStepDef.will_send_request_to(TopMenuBarStepDef.java:27)
+	at ✽.will send request to "Robert Brucato"(src/test/resources/features/consult_dictionary/TopMenuBar.feature:14)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for TopMenuBarPage.btn_frnd_req to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'Mousumys-MacBook-Pro.local', ip: 'fe80:0:0:0:14c9:467b:1d4b:953%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:860)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilVisible(WebElementFacadeImpl.java:873)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy24.waitUntilVisible(Unknown Source)
+	at application.pages.TopMenuBarPage.sending_Request(TopMenuBarPage.java:46)
+	at application.steps.serenity.steps.sending_Request(steps.java:121)
+	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.CGLIB$sending_Request$22(<generated>)
+	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5$$FastClassByCGLIB$$1ac4420.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:426)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:411)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:386)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)
+	at application.steps.serenity.steps$$EnhancerByCGLIB$$337b79e5.sending_Request(<generated>)
+	at application.steps.TopMenuBarStepDef.will_send_request_to(TopMenuBarStepDef.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:99)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:41)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:108)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+[0m
+    [36mThen [0m[36mCancel the friend request[0m            [90m# TopMenuBarStepDef.cancel_the_friend_request()[0m

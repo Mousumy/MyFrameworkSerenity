@@ -7,8 +7,9 @@ Background:
 	Given User can log in to facebook using userid as "asmenterprise.llc@gmail.com" and password as "ctg310306"
 	And User profile has been loaded successfully 
 	  
-@regression
+@smoke
 Scenario: Search for Friends
+
   	When User will search for "Sunil C Patel"
   	
 @regression 

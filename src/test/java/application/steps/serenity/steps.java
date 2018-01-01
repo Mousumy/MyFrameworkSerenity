@@ -112,8 +112,8 @@ public class steps {
 	
 }
    @Step
-   public void verify_Page() {
-	   topmenupage.verify_Page();
+   public void verify_Find_Friends_Page(String title) {
+	   topmenupage.verify_Find_Friends_Page(title);
 	
 }
    @Step

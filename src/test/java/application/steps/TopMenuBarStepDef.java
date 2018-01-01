@@ -17,8 +17,8 @@ public class TopMenuBarStepDef {
 
 
 	@When("^Verify \"([^\"]*)\" page loaded$")
-	public void verify_page_loaded(String arg1){
-		step.verify_Page();
+	public void verify_page_loaded(String title){
+		step.verify_Find_Friends_Page(title);
 	    
 	}
 

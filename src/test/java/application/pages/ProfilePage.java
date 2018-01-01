@@ -398,7 +398,6 @@ public void MakeAPost() {
 			break;
 			
 		}
-	
 			
 		else if (btn_wrk_edu.get(i).getText().equalsIgnoreCase("Add a school")){
 			btn_wrk_edu.get(i).click();
@@ -410,12 +409,10 @@ public void MakeAPost() {
 		else if(btn_wrk_edu.get(1).getText().equalsIgnoreCase("Add a high school")){
 			btn_wrk_edu.get(i).click();
 		}
-	
 		
 	}
 	
 	}
-
 
 
 	public void checking_The_text_Is_Available() {
@@ -428,14 +425,5 @@ public void MakeAPost() {
 		Log.debug("The Text is ------" + name);
 		
 	}	
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
+		
 }
