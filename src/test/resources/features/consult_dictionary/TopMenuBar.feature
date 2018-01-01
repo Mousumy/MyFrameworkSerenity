@@ -10,7 +10,7 @@ Scenario: Find friends feature Verification
 
 	When User will go to "Find friends"
 	And Verify "Find friends" page loaded
-#	And will send request to "James Bulger"
+	And will send request to "James Bulger"
 	And will send request to "Robert Brucato"
 	Then Cancel the friend request
 	

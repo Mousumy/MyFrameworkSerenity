@@ -47,6 +47,7 @@ public class TopMenuBarPage extends PageObject {
 		btn_frnd_req.click();
 		Log.info("I sent friend request");
 		btn_sent_req.waitUntilVisible();
+		Log.info("Friend request set to");
 		
 		
 		
